@@ -1,0 +1,164 @@
+{
+  "name": "Freifunk Darmstadt",
+  "url": "http://darmstadt.freifunk.net",
+  "location": {
+    "city": "Darmstadt",
+    "country": "DE",
+    "lat": 49.87299,
+    "lon": 8.650015,
+    "address": {
+      "Name": "W17",
+      "Street": "Wilhelminenstraße 17",
+      "Zipcode": "64283"
+    }
+  },
+  "contact": {
+    "email": "info@darmstadt.freifunk.net",
+    "phone": "+49 06151 6294552",
+    "irc": "irc://irc.hackint.org/ffda",
+    "ml": "http://lists.freifunk.net/mailman/listinfo/darmstadt-freifunk.net",
+    "twitter": "@freifunkda"
+  },
+  "state": {
+    "lastchange": "2018-04-10T15:22:45+00:00",
+    "focus": [
+      "infrastructure/backbone",
+      "Public Free Wifi",
+      "Social Community Building",
+      "Free internet access"
+    ]
+  },
+  "timeline": [
+    {
+      "description": "Erstes Treffen",
+      "timestamp": "2014-02-13",
+      "url": "https://darmstadt.freifunk.net/news/2014/02/17/erstes-ffda-treffen"
+    },
+    {
+      "description": "Erster Knoten",
+      "timestamp": "2014-06-26",
+      "url": "https://darmstadt.freifunk.net/news/2014/07/09/erste-mesh-knoten"
+    },
+    {
+      "description": "Präsentation bei städtischer IT-Abteilung",
+      "timestamp": "2015-01-29",
+      "url": "https://darmstadt.freifunk.net/news/2015/01/31/informationsveranstaltung-bei-der-stadt-darmstadt"
+    },
+    {
+      "description": "100 Knoten",
+      "timestamp": "2015-03-01",
+      "url": "https://darmstadt.freifunk.net/news/2015/03/02/ein-jahr-freifunk-darmstadt"
+    },
+    {
+      "description": "IPv6 Internetanbindung",
+      "timestamp": "2015-04-06",
+      "url": "https://darmstadt.freifunk.net/news/2015/04/23/ipv6-anbindung"
+    },
+    {
+      "description": "IPv4 Internetanbindung nun über eigene IP-Adressen",
+      "timestamp": "2015-06-16",
+      "url": "https://darmstadt.freifunk.net/news/2015/06/17/uplink-via-freifunk-rheinland"
+    }
+  ],
+  "feeds": [
+    {
+      "name": "News",
+      "category": "blog",
+      "type": "rss",
+      "url": "https://darmstadt.freifunk.net/feed.xml"
+    },
+    {
+      "name": "Forum",
+      "category": "forum",
+      "type": "rss",
+      "url": "https://forum.darmstadt.freifunk.net/latest.rss"
+    }
+  ],
+  "nodeMaps": [
+    {
+      "url": "https://meshviewer.darmstadt.freifunk.net",
+      "interval": "60",
+      "technicalType": "meshviewer",
+      "mapType": "geographical"
+    },
+    {
+      "url": "https://meshviewer.darmstadt.freifunk.net/data/nodelist.json",
+      "interval": "60",
+      "technicalType": "nodelist",
+      "mapType": "list/status"
+    }
+  ],
+  "support": {
+    "club": {
+      "name": "Chaos Computer Club Darmstadt e.V.",
+      "street": "Wilhelminenstraße 17",
+      "zip": "64283",
+      "city": "Darmstadt",
+      "url": "http://www.chaos-darmstadt.de",
+      "email": "info@chaos-darmstadt.de"
+    },
+    "donations": {
+      "bankaccount": {
+        "IBAN": "DE47 5089 0000 0064 3445 01",
+        "BIC": "GENODEF1VBD",
+        "usage": "Freifunk"
+      },
+      "campaigns": [
+        {
+          "provider": "betterplace",
+          "projectid": "27613"
+        },
+        {
+          "provider": "boost",
+          "projectid": "3433"
+        }
+      ]
+    }
+  },
+  "techDetails": {
+    "firmware": {
+      "name": "gluon-ffda",
+      "url": "http://firmware.darmstadt.freifunk.net",
+      "docs": "https://forum.darmstadt.freifunk.net/c/technik/firmware",
+      "vpnaccess": "mail"
+    },
+    "dns": [
+      {
+        "domainname": "ffda.io",
+        "nameserver": [
+          "ns1.as6766.net.",
+          "ns2.as6766.net."
+        ]
+      }
+    ],
+    "networks": {
+      "ipv6": [
+        {
+          "network": "2001:67c:2ed8::/48"
+        },
+        {
+          "network": "fd01:67c:2ed8::/48"
+        }
+      ],
+      "ipv4": [
+        {
+          "network": "10.84.0.0/15"
+        },
+        {
+          "network": "82.195.73.0/26"
+        }
+      ]
+    },
+    "routing": [
+      "batman-adv"
+    ],
+    "updatemode": [
+      "manual",
+      "autoupdate"
+    ],
+    "legals": [
+      "institutions"
+    ]
+  },
+  "api": "0.4.14"
+}

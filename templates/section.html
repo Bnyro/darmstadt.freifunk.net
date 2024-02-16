@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta content="width=device-width,initial-scale=1" name="viewport" />
+    <title>{% block title %}{{ config.title }}{% endblock title %}</title>
+    <meta
+      name="description"
+      content="Freifunk Darmstadt ist eine lokale Initiative mit dem Ziel, ein WLAN-Netzwerk über Darmstadt aufzuspannen und freien Netzzugang anzubieten."
+    />
+    <meta name="theme-color" content="#dc0067" />
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="icon" type="image/png" href="/images/favicon.png" />
+  </head>
+  <body>
+    {% block header %}
+    <header>
+      <a href="/">
+        <h1><img style="height: 1em" src="/logo.png" /> FFDA</h1>
+      </a>
+      <nav>
+        {% for link in config.extra.links %}
+        <a href="{{ link.href }}">{{ link.title }}</a>
+        {% endfor %}
+      </nav>
+    </header>
+    {% endblock header %} {% block content %}
+    <main>{{ section.content | safe }}</main>
+    {% endblock content %}
+    <footer>
+      <ul>
+        {% for link in config.extra.links %}
+        <li><a href="{{ link.href }}">{{ link.title }}</a></li>
+        {% endfor %}
+      </ul>
+      Lizensiert unter CC BY-SA-4.0
+    </footer>
+  </body>
+</html>

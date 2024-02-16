@@ -1,0 +1,15 @@
+{% extends "section.html"%} {% block content %}
+<main style="display: flex; align-items: center; flex-direction: column">
+  {{ section.content | safe }} {% for segment in section.pages %}
+  <div
+    class="segment"
+    id="{{ segment.title | lower | replace(from=' ', to='-') }}"
+  >
+    <a href="{{ segment.path }}">
+      <h3>{{ segment.title }}</h3>
+    </a>
+    {{ segment.summary | safe}}
+  </div>
+  {% endfor %}
+</main>
+{% endblock content %}
