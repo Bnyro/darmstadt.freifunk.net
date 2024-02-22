@@ -8,6 +8,12 @@ body {
 
 body {
   padding: 0 15vw;
+  background: repeating-linear-gradient(
+    to right,
+    #dc006718 0%,
+    #ffffff 20%,
+    #dc006718 40%
+  );
 }
 
 header {
