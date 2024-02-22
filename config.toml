@@ -20,9 +20,15 @@ generate_anchor = true
 links = [
   { title = "Blog", href = "/blog"},
   { title = "Mitmachen", href = "/mitmachen"},
+  { title = "Chat", href = "/chat"},
+  { title = "Firmware", href = "https://firmware.darmstadt.freifunk.net"},
   { title = "Statistiken", href = "https://stats.darmstadt.freifunk.net"},
   { title = "Karte", href = "https://meshviewer.darmstadt.freifunk.net"},
-  { title = "Chat", href = "/chat"},
-  { title = "Kontakt", href = "/kontakt"},
+]
+
+footerlinks = [
   { title = "Impressum", href = "/impressum"},
+  { title = "Kontakt", href = "/chat"},
+  { title = "Statistiken", href = "https://stats.darmstadt.freifunk.net"},
+  { title = "Karte", href = "https://meshviewer.darmstadt.freifunk.net"},
 ]
