@@ -16,6 +16,7 @@ generate_anchor = true
 
 [extra]
 # Put all your custom variables here
+title = "ffda"
 
 links = [
   { title = "Blog", href = "/blog"},

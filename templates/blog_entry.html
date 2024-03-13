@@ -1,0 +1,4 @@
+{% extends "section.html" %} {% block content %}
+<h2>{{ page.title | safe }}</h2>
+<p>{{ page.date | date(format="%d.%m.%Y") }}</p>
+{{ page.content | safe }} {% endblock content %}
