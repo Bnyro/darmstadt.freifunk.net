@@ -1,9 +1,9 @@
 +++
-title = "Chat"
+title = "Chats"
 weight = 4
 +++
 
-Du möchtest mit uns chatten?
+Du hast noch Fragen, möchtest mit uns chatten oder in den Austausch mit der Freifunk-Community treten? Du kannst uns über verschiedene Foren wie z.B. Matrix und IRC erreichen.
 
 <!-- more -->
 
@@ -31,7 +31,7 @@ Weitere Informationen zur Verwendung von Matrix findest du auf [joinmatrix.org](
 
 
 
-#### Irc
+#### IRC
 Unser Kanal ist im hackint Netzwerk beheimatet. Informationen zur Konfiguration deines IRC Clients ist auf den Seiten des hackint Netzwerks zu finden: [hackint.org/connect](https://hackint.org/connect)
 
 Der primäre Raumname ist #ffda. Ein Webchat ohne Anmeldung steht unter [chat.darmstadt.freifunk.net](https://chat.darmstadt.freifunk.net) bereit.
