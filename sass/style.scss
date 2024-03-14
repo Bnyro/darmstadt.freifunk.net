@@ -168,10 +168,10 @@ blockquote {
   padding-left: 2rem;
 }
 
-// Mobile
+/** Mobile **/
 @media (max-width: 1000px) {
   body {
-    padding: 2em 5vw;
+    padding: 0 5vw 2em 5vw;
   }
 
   #hero {
@@ -230,6 +230,7 @@ blockquote {
     ul {
       flex-direction: column;
       padding-left: 0;
+      gap: 7px;
     }
   }
 }
