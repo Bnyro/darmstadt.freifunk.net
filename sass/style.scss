@@ -34,6 +34,30 @@ header {
   display: flex;
   flex-direction: row;
   padding: 2vh 0;
+
+  nav {
+    max-width: max-content;
+    flex-grow: 1;
+    margin-left: auto;
+    align-content: right;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    a {
+      font-size: 1.2em;
+      color: var(--text);
+      font-weight: bold;
+      border-bottom: 3px solid transparent;
+      transition: 0.2s all ease-in-out;
+    }
+    a:hover {
+      border-bottom: 3px solid var(--text);
+    }
+  }
+
+  #hamburger {
+    display: none;
+  }
 }
 
 aside {
@@ -77,26 +101,6 @@ a {
   color: inherit;
 }
 
-nav {
-  max-width: max-content;
-  flex-grow: 1;
-  margin-left: auto;
-  align-content: right;
-  display: flex;
-  align-items: center;
-  gap: 16px;
-  a {
-    font-size: 1.2em;
-    color: var(--text);
-    font-weight: bold;
-    border-bottom: 3px solid transparent;
-    transition: 0.2s all ease-in-out;
-  }
-  a:hover {
-    border-bottom: 3px solid var(--text);
-  }
-}
-
 main {
   padding: 2vw;
   margin: auto;
@@ -113,6 +117,7 @@ main {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
+  margin-top: 10vh;
   margin-bottom: 20vh;
   gap: 32px;
   span {
@@ -157,13 +162,14 @@ table {
 }
 
 // Mobile
-@media (max-width: 1100px) {
+@media (max-width: 1000px) {
   body {
     padding: 2em 5vw;
   }
 
   #hero {
     flex-direction: column;
+    margin-top: 0;
     span {
       max-width: 100%;
     }
@@ -176,11 +182,41 @@ table {
     }
   }
 
-  header,
-  nav {
+  .segment {
+    padding-top: 0;
+  }
+
+  header {
     margin: 0;
+    padding: 0;
     flex-flow: column nowrap;
     align-items: center;
+
+    #checkbox ~ nav {
+      display: none;
+    }
+
+    #checkbox:checked ~ nav {
+      display: flex;
+      margin: 0;
+      margin-top: 1rem;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    #hamburger-container {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    #hamburger {
+      font-size: 3rem;
+      transform: scaleX(1.4);
+      cursor: pointer;
+      display: inline-block;
+    }
   }
 
   footer {

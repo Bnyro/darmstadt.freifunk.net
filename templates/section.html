@@ -23,9 +23,13 @@
   <body>
     {% block header %}
     <header>
-      <a href="/">
-        <h1><img style="height: 1em" src="/logo.svg" /> FFDA</h1>
-      </a>
+      <input id="checkbox" type="checkbox" hidden />
+      <span id="hamburger-container">
+        <a href="/">
+          <h1><img style="height: 1em" src="/logo.svg" /> FFDA</h1>
+        </a>
+        <label for="checkbox" id="hamburger">≡</label>
+      </span>
       <nav>
         {% for link in config.extra.links %}
         <a href="{{ link.href }}">{{ link.title }}</a>
