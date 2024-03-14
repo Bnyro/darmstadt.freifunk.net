@@ -10,8 +10,8 @@ sort_by = "weight"
 Unsere Vision: Ein freies und offenes Netz, in dem jeder gleichberechtigt kommunizieren kann
 </span>
 <aside>
-  <a href="/#mitmachen">Mitmachen</a>
-  <a href="/chats">Chats</a>
+  <a href="/mitmachen">Mitmachen</a>
+  <a href="/chat">Chats</a>
 </aside>
 
 </div>

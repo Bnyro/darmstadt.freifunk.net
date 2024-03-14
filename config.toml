@@ -26,8 +26,7 @@ generate_anchor = true
 
 links = [
   { title = "Blog", href = "/blog"},
-  { title = "Mitmachen", href = "/mitmachen"},
-  { title = "Chat", href = "/chat"},
+  { title = "Geräte", href = "/router"},
   { title = "Firmware", href = "https://firmware.darmstadt.freifunk.net"},
   { title = "Statistiken", href = "https://stats.darmstadt.freifunk.net"},
   { title = "Karte", href = "https://meshviewer.darmstadt.freifunk.net"},
