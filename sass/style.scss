@@ -80,12 +80,13 @@ aside {
 }
 
 footer {
-  padding: 0 20vw;
+  padding: 0 2vw;
   text-align: center;
   padding-bottom: 30px;
   ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 2rem;
     li {
       list-style: none;
     }
@@ -159,6 +160,12 @@ table {
   tr:nth-child(even) {
     background: var(--surface);
   }
+}
+
+blockquote {
+  border-left: solid 4px var(--surface);
+  font-style: italic;
+  padding-left: 2rem;
 }
 
 // Mobile
