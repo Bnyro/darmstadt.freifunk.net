@@ -7,6 +7,13 @@ compile_sass = true
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = true
 
+# RSS Feed related stuff
+generate_feed = true
+feed_filename = "atom.xml"
+author = "Freifunk Darmstadt"
+title = "Freifunk Darmstadt"
+description = "Freifunk Darmstadt ist eine lokale Initiative mit dem Ziel, ein WLAN-Netzwerk über Darmstadt aufzuspannen und freien Netzzugang anzubieten."
+
 [markdown]
 # Whether to do syntax highlighting
 # Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
@@ -16,7 +23,6 @@ generate_anchor = true
 
 [extra]
 # Put all your custom variables here
-title = "ffda"
 
 links = [
   { title = "Blog", href = "/blog"},
