@@ -5,7 +5,7 @@ title = "Unterstütze Geräte"
 
 Um deinen eigenen Freifunk-Router zu betreiben benötigt du nur einen kompatiblen WLAN-Router, -Repeater oder -Accesspoint. Die Grundlage für die Kompatibilität liegt in der Unterstützung durch die freie GNU/Linux Distribution <a href="https://openwrt.org/">OpenWRT</a>, die sich auf Embedded-Geräte spezialisiert hat.
 
-Hast du bereits ein Gerät, oder willst selbst eines kaufen, überprüfe zuvor ob bereits eine Firmware dafür existiert. Das kann man auf der <a href="https://firmware.darmstadt.freifunk.net">Firmware-Downloadseite</a> prüfen, aber auch direkt <a href="/kontakt/">von uns</a> erfahren. Die übliche Router-Hardware vom DSL- oder Kabelprovider ist hierfür in der Regel nicht geeignet. Falls du eine größere Installation von mehr als 3 Access Points, Installaton von Kommunen, von Vereinen, sozialen Trägern oder Kirchen planst, [kontaktiere](/chat) uns bitte vorher.
+Hast du bereits ein Gerät, oder willst selbst eines kaufen, überprüfe zuvor ob bereits eine Firmware dafür existiert. Das kann man auf der <a href="https://firmware.darmstadt.freifunk.net">Firmware-Downloadseite</a> prüfen, aber auch direkt [von uns](/chat) erfahren. Die übliche Router-Hardware vom DSL- oder Kabelprovider ist hierfür in der Regel nicht geeignet. Falls du eine größere Installation von mehr als 3 Access Points, Installaton von Kommunen, von Vereinen, sozialen Trägern oder Kirchen planst, [kontaktiere](/chat) uns bitte vorher.
 
 Achte beim Kauf auf die Hardware-Revision! <br />
 Nicht immer existiert für jedes Gerät eine Firmware, obwohl es zur selben Modellreihe gehört. <br />
