@@ -1,0 +1,702 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Freifunk Darmstadt</title>
+    <subtitle>Freifunk Darmstadt ist eine lokale Initiative mit dem Ziel, ein WLAN-Netzwerk über Darmstadt aufzuspannen und freien Netzzugang anzubieten.</subtitle>
+    <link href="https://ffda.chatoyer.de/atom.xml" rel="self" type="application/atom+xml"/>
+    <link href="https://ffda.chatoyer.de"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2022-12-14T00:00:00+00:00</updated>
+    <id>https://ffda.chatoyer.de/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Freifunk Darmstadt bei radio.exe vom Radio Darmstadt</title>
+        <published>2022-12-14T00:00:00+00:00</published>
+        <updated>2022-12-14T00:00:00+00:00</updated>
+        <author>
+          <name>Freifunk Darmstadt</name>
+        </author>
+        <link rel="alternate" href="https://ffda.chatoyer.de/blog/radio-darmstadt/" type="text/html"/>
+        <id>https://ffda.chatoyer.de/blog/radio-darmstadt/</id>
+        
+        <summary type="html">&lt;p&gt;Die Darmstädter Freifunker Alex und David waren zu Gast bei Leon von Radio Darmstadt zur Aufzeichnung
+einer &lt;a href=&quot;https:&#x2F;&#x2F;www.radiodarmstadt.de&#x2F;sendungen&#x2F;unterhaltungsredaktion&#x2F;radioexe.html&quot;&gt;radio.exe&lt;&#x2F;a&gt; Sendung.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Einladung: Flashparty am 28.08.2022</title>
+        <published>2022-08-18T00:00:00+00:00</published>
+        <updated>2022-08-18T00:00:00+00:00</updated>
+        <author>
+          <name>Freifunk Darmstadt</name>
+        </author>
+        <link rel="alternate" href="https://ffda.chatoyer.de/blog/flashevent/" type="text/html"/>
+        <id>https://ffda.chatoyer.de/blog/flashevent/</id>
+        
+        <summary type="html">&lt;p&gt;Wir könnten wieder Eure Unterstützung gebrauchen.&lt;&#x2F;p&gt;
+&lt;p&gt;Eine dreistellige Anzahl von Routern wartet darauf geflashed zu werden.
+Daher wollen wir uns am Sonntag, den 28. August um 11:00 Uhr treffen, um diese Geräte mit der Firmware von Freifunk Darmstadt zu versorgen.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Aktivierung des OWE Transition Mode - Erinnerung Supportende mancher Altgeräte</title>
+        <published>2022-08-17T00:00:00+00:00</published>
+        <updated>2022-08-17T00:00:00+00:00</updated>
+        <author>
+          <name>Freifunk Darmstadt</name>
+        </author>
+        <link rel="alternate" href="https://ffda.chatoyer.de/blog/owe-tm/" type="text/html"/>
+        <id>https://ffda.chatoyer.de/blog/owe-tm/</id>
+        
+        <summary type="html">&lt;p&gt;In den kommenden Tagen wird das Firmware Update mit der Version &lt;a href=&quot;https:&#x2F;&#x2F;forum.darmstadt.freifunk.net&#x2F;t&#x2F;2-4-4-gluon-v2021-1-2&#x2F;936&quot;&gt;2.4.4&lt;&#x2F;a&gt; als stabile Firmware Version bereitgestellt. Mit dieser Version aktivieren wir den OWE Transition Mode.&lt;&#x2F;p&gt;
+&lt;p&gt;Damit einher geht eine konkrete Einschränkung für alle Knoten welche eine ältere Firmware Version nutzen. 
+Und zwar werden fortan alle OWE-fähigen Endgeräte (Handys, Laptops ...), welche sich einmal in einen Freifunkknoten mit der aktualisierten Firmware verbunden haben, sich nicht mehr automatisch mit Knoten auf welchen die alte Firmware läuft verbinden.&lt;&#x2F;p&gt;
+&lt;p&gt;Abgesehen von einer Handvoll Geräten mit deaktiviertem Auotupdater trifft dies vor allem die Geräte für welche bereits im Mai 2018 das Supportende angekündigt wurde.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Ausfall von Freifunk Darmstadt - Bitte um Unterstützung</title>
+        <published>2020-09-09T00:00:00+00:00</published>
+        <updated>2020-09-09T00:00:00+00:00</updated>
+        <author>
+          <name>Freifunk Darmstadt</name>
+        </author>
+        <link rel="alternate" href="https://ffda.chatoyer.de/blog/ausfall/" type="text/html"/>
+        <id>https://ffda.chatoyer.de/blog/ausfall/</id>
+        
+        <summary type="html">&lt;p&gt;In der letzten Woche ist das Netz von Freifunk Darmstadt gleich zweimal durch einen Stromausfall ausgefallen.
+Leider ist dabei auch Hardware kaputt gegangen, welche wir glücklicherweise bereits ersetzen konnten.&lt;&#x2F;p&gt;
+&lt;p&gt;Dennoch hat uns der Ausfall deutlich gemacht, dass wir für den Betrieb von Freifunk Darmstadt auf Unterstützung von Euch angewiesen sind.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Nächstes Treffen am 10. August 2020</title>
+        <published>2020-07-13T00:00:00+00:00</published>
+        <updated>2020-07-13T00:00:00+00:00</updated>
+        <author>
+          <name>Freifunk Darmstadt</name>
+        </author>
+        <link rel="alternate" href="https://ffda.chatoyer.de/blog/naechstes-treffen/" type="text/html"/>
+        <id>https://ffda.chatoyer.de/blog/naechstes-treffen/</id>
+        
+        <summary type="html">&lt;p&gt;Im heutigen Plenum haben wir festgelegt, dass wir bis auf auf Widerruf alle Treffen virtuell stattfinden lassen.&lt;&#x2F;p&gt;
+&lt;p&gt;Am 10. August 2020 hast Du die nächste Chance uns ab  ab 19 Uhr auf &lt;a href=&quot;https:&#x2F;&#x2F;meet.ffmuc.net&#x2F;FreifunkDarmstadtPlenum&quot;&gt;Jitsi&lt;&#x2F;a&gt; zu treffen.
+Wir beginnen zunächst damit eventuelle Einwahlprobleme zu lösen und planen den offiziellen Teil ab 19:30 Uhr zu starten.&lt;&#x2F;p&gt;
+&lt;p&gt;Themensammlung und Protokoll finden sich &lt;a href=&quot;https:&#x2F;&#x2F;md.darmstadt.ccc.de&#x2F;ffda-20200810&quot;&gt;hier&lt;&#x2F;a&gt;. Fügt eure Themenvorschläge einfach hinzu.&lt;&#x2F;p&gt;
+&lt;p&gt;Sollte sich in der Zukunft etwas an der Art und Weise des Treffens ändern, so werden wir dies hier bekannt geben.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Treffen weiterhin Online</title>
+        <published>2020-07-11T00:00:00+00:00</published>
+        <updated>2020-07-11T00:00:00+00:00</updated>
+        <author>
+          <name>Freifunk Darmstadt</name>
+        </author>
+        <link rel="alternate" href="https://ffda.chatoyer.de/blog/weiterhin-online-treffen-update/" type="text/html"/>
+        <id>https://ffda.chatoyer.de/blog/weiterhin-online-treffen-update/</id>
+        
+        <summary type="html">&lt;p&gt;Unser nächstes Treffen (13. Juli 2020) findet weiterhin online statt. Wir treffen uns ab 19 Uhr auf &lt;a href=&quot;https:&#x2F;&#x2F;meet.ffmuc.net&#x2F;FreifunkDarmstadtPlenum&quot;&gt;Jitsi&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Themensammlung und Protokoll finden sich &lt;a href=&quot;https:&#x2F;&#x2F;md.darmstadt.ccc.de&#x2F;ffda-20200713&quot;&gt;hier&lt;&#x2F;a&gt;. Fügt eure Themenvorschläge einfach hinzu.&lt;&#x2F;p&gt;
+&lt;p&gt;Sollte sich in der Zukunft etwas an der Art und Weise des Treffens ändern, so werden wir dies hier bekannt geben.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Treffen weiterhin Online</title>
+        <published>2020-06-08T00:00:00+00:00</published>
+        <updated>2020-06-08T00:00:00+00:00</updated>
+        <author>
+          <name>Freifunk Darmstadt</name>
+        </author>
+        <link rel="alternate" href="https://ffda.chatoyer.de/blog/weiterhin-online-treffen/" type="text/html"/>
+        <id>https://ffda.chatoyer.de/blog/weiterhin-online-treffen/</id>
+        
+        <summary type="html">&lt;p&gt;Unser heutiges Treffen (08. Juni 2020) findet weiterhin online statt. Wir treffen uns ab 19 Uhr auf &lt;a href=&quot;https:&#x2F;&#x2F;meet.ffmuc.net&#x2F;FreifunkDarmstadtPlenum&quot;&gt;Jitsi&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Themensammlung und Protokoll finden sich &lt;a href=&quot;https:&#x2F;&#x2F;md.darmstadt.ccc.de&#x2F;ffda-20200608&quot;&gt;hier&lt;&#x2F;a&gt;. Fügt eure Themenvorschläge einfach hinzu.&lt;&#x2F;p&gt;
+&lt;p&gt;Sollte sich in der Zukunft etwas an der Art und Weise des Treffens ändern, so werden wir dies hier bekannt geben.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Nächstes Treffen am 13. April 2020 findet über eine Jitsi Webkonferenz statt</title>
+        <published>2020-04-06T00:00:00+00:00</published>
+        <updated>2020-04-06T00:00:00+00:00</updated>
+        <author>
+          <name>Freifunk Darmstadt</name>
+        </author>
+        <link rel="alternate" href="https://ffda.chatoyer.de/blog/ankuendigung-details-virtuelle-treffen-copy/" type="text/html"/>
+        <id>https://ffda.chatoyer.de/blog/ankuendigung-details-virtuelle-treffen-copy/</id>
+        
+        <summary type="html">&lt;p&gt;Die Teilnahme ist über Jitsi der Münchner Freifunkplattform (&lt;a href=&quot;https:&#x2F;&#x2F;meet.ffmuc.net&#x2F;FreifunkDarmstadtPlenum&quot;&gt;https:&#x2F;&#x2F;meet.ffmuc.net&#x2F;FreifunkDarmstadtPlenum&lt;&#x2F;a&gt;) möglich. &lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Mehr Sicherheit in der Luft - WPA3 für unsere Firmware</title>
+        <published>2020-03-27T00:00:00+00:00</published>
+        <updated>2020-03-27T00:00:00+00:00</updated>
+        <author>
+          <name>Freifunk Darmstadt</name>
+        </author>
+        <link rel="alternate" href="https://ffda.chatoyer.de/blog/firmware-wpa3/" type="text/html"/>
+        <id>https://ffda.chatoyer.de/blog/firmware-wpa3/</id>
+        
+        <summary type="html">&lt;p&gt;Mit unserer &lt;a href=&quot;https:&#x2F;&#x2F;firmware.darmstadt.freifunk.net&#x2F;&quot;&gt;aktuellen Firmware im testing Zweig&lt;&#x2F;a&gt; rollen wir gleich zwei neue Features aus, welche erstmals die im Freifunk Client-Netz übertragenen Daten gegen passives Mitlesen absichern und dein privates WLAN noch besser schützen.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Firmwareversion 2.0.1 ausgerollt</title>
+        <published>2020-03-21T01:35:00+00:00</published>
+        <updated>2020-03-21T01:35:00+00:00</updated>
+        <author>
+          <name>Freifunk Darmstadt</name>
+        </author>
+        <link rel="alternate" href="https://ffda.chatoyer.de/blog/firmware-v2-0-1-veroffentlicht/" type="text/html"/>
+        <id>https://ffda.chatoyer.de/blog/firmware-v2-0-1-veroffentlicht/</id>
+        
+        <summary type="html">&lt;p&gt;Die Firmwareversion 2.0.1 wurde erfolgreich ausgerollt. Bitte prüft, ob Ihr eventuell noch veraltete Hardware im Einsatz habt.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>COVID-19 - Treffen nur noch virtuell</title>
+        <published>2020-03-15T14:00:00+00:00</published>
+        <updated>2020-03-15T14:00:00+00:00</updated>
+        <author>
+          <name>Freifunk Darmstadt</name>
+        </author>
+        <link rel="alternate" href="https://ffda.chatoyer.de/blog/virtuelle-treffen/" type="text/html"/>
+        <id>https://ffda.chatoyer.de/blog/virtuelle-treffen/</id>
+        
+        <summary type="html">&lt;p&gt;Angesichts der aktuellen Ausbreitung von COVID-19 sagen wir alle unsere öffentlichen Veranstaltungen bis auf Weiteres ab.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Aufteilung des Darmstädter Freifunk-Netzes</title>
+        <published>2018-09-20T12:00:00+00:00</published>
+        <updated>2018-09-20T12:00:00+00:00</updated>
+        <author>
+          <name>Freifunk Darmstadt</name>
+        </author>
+        <link rel="alternate" href="https://ffda.chatoyer.de/blog/ankuendigung-multidomain/" type="text/html"/>
+        <id>https://ffda.chatoyer.de/blog/ankuendigung-multidomain/</id>
+        
+        <summary type="html">&lt;p&gt;Das Wachstum der letzten Jahre ist technisch nicht Spurlos am Freifunk-Netz vorbeigegangen. Um weiter wachsen zu können und Ressourcen besser auszunutzen wird das Netz in den kommenden Wochen in Domains aufgeteilt.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Supportende für bestimmte Geräte</title>
+        <published>2018-05-16T12:00:00+00:00</published>
+        <updated>2018-05-16T12:00:00+00:00</updated>
+        <author>
+          <name>Freifunk Darmstadt</name>
+        </author>
+        <link rel="alternate" href="https://ffda.chatoyer.de/blog/eol-devices/" type="text/html"/>
+        <id>https://ffda.chatoyer.de/blog/eol-devices/</id>
+        
+        <summary type="html">&lt;p&gt;Mit dem Release von Gluon 2018.1 in voraussichtlich zwei Wochen werden wir die Unterstützung für Erstinstallationen bestimmter Geräte einstellen. &lt;&#x2F;p&gt;
+&lt;p&gt;Hintergrund ist die mangelnde Zukunftsfähigkeit dieser Geräte, welche sich in der Vergangenheit durch erhöhte Systemlast, häufig wiederkehrende Neustarts und generell schlechte Performance gezeigt hat.&lt;&#x2F;p&gt;
+&lt;p&gt;Bereits installierte Geräte werden voraussichtlich noch mindestens 1 Jahr mit Aktualisierungen versorgt. Wann die Einstellung dieser genau erfolgt können wir zum jetzigen Zeitpunkt noch nicht sagen.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Wir brauchen *DRINGEND* Unterstützung, um Geflüchteten weiterhin einen Zugang zum Freifunk-Netz zu ermöglichen</title>
+        <published>2018-03-02T12:00:00+00:00</published>
+        <updated>2018-03-02T12:00:00+00:00</updated>
+        <author>
+          <name>Freifunk Darmstadt</name>
+        </author>
+        <link rel="alternate" href="https://ffda.chatoyer.de/blog/wir-brauchen-deine-unterstuetzung/" type="text/html"/>
+        <id>https://ffda.chatoyer.de/blog/wir-brauchen-deine-unterstuetzung/</id>
+        
+        <summary type="html">&lt;p&gt;Hallo Leute,&lt;&#x2F;p&gt;
+&lt;p&gt;wie Ihr sicherlich mitbekommen habt, versorgen wir bereits seit über 2
+Jahren die meisten Unterkünfte und Erstwohnhäuser für Geflüchtete in
+Zusammenarbeit mit der Stadt Darmstadt, worauf wir sehr stolz sind.&lt;&#x2F;p&gt;
+&lt;p&gt;In letzter Zeit ist die Zahl der Aktiven leider, bedingt durch beendetes
+Studium, Umzug oder anderweitiger Verpflichtungen immer weiter
+zurückgegangen. Aktuell betreuen effektiv zwei Freifunker alle sieben
+Unterkünfte in Darmstadt, teilweise mit mehreren hundert Bewohnern. In
+der größten Unterkunft, die aus 8 dreistöckigen und 2 einstöckigen
+Gebäuden besteht, stehen demnächst größere Umbauarbeiten am Netz an.
+Aktuell stehen wir bei der anfallenden Arbeit mit dem Rücken zur Wand
+und tun uns schwer damit, langfristige Unterstützung zuzusichern.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Freifunk Darmstadt auf dem 39. Internationalen Speedskating-Kriterium</title>
+        <published>2017-05-01T12:00:00+00:00</published>
+        <updated>2017-05-01T12:00:00+00:00</updated>
+        <author>
+          <name>Freifunk Darmstadt</name>
+        </author>
+        <link rel="alternate" href="https://ffda.chatoyer.de/blog/speedskating-kriterium-gross-gerau/" type="text/html"/>
+        <id>https://ffda.chatoyer.de/blog/speedskating-kriterium-gross-gerau/</id>
+        
+        <summary type="html">&lt;p&gt;&lt;a href=&quot;&#x2F;images&#x2F;posts&#x2F;2017-05-01-speedskating&#x2F;buschfunk.jpg&quot;&gt;&lt;img src=&quot;&#x2F;images&#x2F;posts&#x2F;2017-05-01-speedskating&#x2F;buschfunk.jpg&quot; alt=&quot;Router im Gebüsch&quot; class=&quot;image right&quot; style=&quot;width: 30%&quot;&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Teilnehmer aus über 30 Nationen fanden sich am vergangenen Wochenende (28.-30.4.) in Groß-Gerau zum 39. Internationalen &lt;a href=&quot;http:&#x2F;&#x2F;www.speedskater-kriterium.de&#x2F;&quot;&gt;Speedskating-Kriterium&lt;&#x2F;a&gt; zusammen um bei wunderbarem Wetter im renommierten Wettkampf auf dem Gelände des &lt;a href=&quot;https:&#x2F;&#x2F;www.blau-gelb-gg.de&#x2F;&quot;&gt;Sportvereins Blau-Gelb Groß-Gerau&lt;&#x2F;a&gt; gegeneinander anzutreten.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;&#x2F;images&#x2F;posts&#x2F;2017-05-01-speedskating&#x2F;zeltrouter.jpg&quot;&gt;&lt;img src=&quot;&#x2F;images&#x2F;posts&#x2F;2017-05-01-speedskating&#x2F;zeltrouter.jpg&quot; alt=&quot;Router im Eingangsbereich&quot; class=&quot;image right noexcerpt&quot; style=&quot;width: 30%&quot;&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Bereits im Februar erhielten wir eine Anfrage, ob wir nicht mit unserem technischen Know-how aushelfen und so einen Internetzugang für die Besucher und den Livestream der Veranstaltung ermöglichen könnten. Da die Veranstaltung - wie die Aktivitäten von Freifunk Darmstadt - im Ehrenamt geplant, organisiert und durchgeführt wird, fiel uns die Entscheidung, hier aktiv zu werden, nicht schwer. Mit freundlicher Unterstützung des Kreises Groß-Gerau war es so möglich, vom benachbarten Gebäude der Kreisverwaltung eine Richtfunkstrecke zum Skate-Park aufzubauen, über die das Gelände ans Internet angebunden werden konnte.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Jahresrückblick 2016</title>
+        <published>2017-01-23T12:00:00+00:00</published>
+        <updated>2017-01-23T12:00:00+00:00</updated>
+        <author>
+          <name>Freifunk Darmstadt</name>
+        </author>
+        <link rel="alternate" href="https://ffda.chatoyer.de/blog/jahresrueckblick/" type="text/html"/>
+        <id>https://ffda.chatoyer.de/blog/jahresrueckblick/</id>
+        
+        <summary type="html">&lt;p&gt;Mit 2016 ging für Freifunk Darmstadt ein überaus erfolgreiches und tatenreiches Jahr zu Ende. Wir haben gemeinsam einige Meilensteine erreicht, was uns sehr stolz macht.&lt;&#x2F;p&gt;
+&lt;p&gt;Am 19. Februar 2016 konnten wir in der Oettinger Villa mit unserer 1K300 Party das Erreichen von täglich 1000 gleichzeitig aktiven Nutzern im Freifunk-Netz, sowie 300 dauerhaft aktiven Knoten feiern.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Hessische Freifunk Communities treffen sich zum Austausch</title>
+        <published>2016-09-26T12:00:00+00:00</published>
+        <updated>2016-09-26T12:00:00+00:00</updated>
+        <author>
+          <name>Freifunk Darmstadt</name>
+        </author>
+        <link rel="alternate" href="https://ffda.chatoyer.de/blog/meetup/" type="text/html"/>
+        <id>https://ffda.chatoyer.de/blog/meetup/</id>
+        
+        <summary type="html">&lt;p&gt;&lt;a href=&quot;&#x2F;images&#x2F;posts&#x2F;2016-09-26-meetup&#x2F;meetup1.jpg&quot;&gt;&lt;img src=&quot;&#x2F;images&#x2F;posts&#x2F;2016-09-26-meetup&#x2F;meetup1.jpg&quot; alt=&quot;Meetup Programm&quot; class=&quot;image right&quot; style=&quot;width: 30%&quot;&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Die Freifunk-Communities aus Hessen und angrenzenden Bundesländern fanden sich am Wochenende vom 23.09. - 25.09.2016 zum „Freifunk Hessen Meetup 2016.2” zusammen. Bei dem von Freifunk Frankfurt organisierten Event ging es inhaltlich um aktuelle Entwicklungen in den Bereichen Technik und Recht. Hier dominierte vor allem die Diskussion von Konsequenzen aus der von der Bundesregierung initiierten Reform der WLAN Störerhaftung.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Freies WLAN für Geflüchtete in Groß-Gerau</title>
+        <published>2016-09-12T12:00:00+00:00</published>
+        <updated>2016-09-12T12:00:00+00:00</updated>
+        <author>
+          <name>Freifunk Darmstadt</name>
+        </author>
+        <link rel="alternate" href="https://ffda.chatoyer.de/blog/sportpark-gg/" type="text/html"/>
+        <id>https://ffda.chatoyer.de/blog/sportpark-gg/</id>
+        
+        <summary type="html">&lt;img src=&quot;&#x2F;images&#x2F;posts&#x2F;2016-09-12-gg-sportpark-container.jpg&quot; alt=&quot;Der Eingang der Unterkunft&quot; class=&quot;image right&quot; style=&quot;width: 30%&quot;&gt;
+&lt;p&gt;Seit dem vergangenen Wochenende gibt es freies WLAN in der Unterkunft für Geflüchtete in der Containeranlage in Groß-Gerau. Mit fünf ehrenamtlichen Helfern waren wir vor Ort und haben den Aufbau der nötigen Hardware vorgenommen. Viele Geflüchtete besitzen zwar ein Smartphone, können sich aber die vergleichsweise teuren Datentarife der Mobilfunkanbieter nicht leisten. Vielen Dank an die Stadt Groß-Gerau, die den Aufbau möglich gemacht hat!&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Neue Räumlichkeiten für unsere Treffen</title>
+        <published>2016-06-09T13:00:00+00:00</published>
+        <updated>2016-06-09T13:00:00+00:00</updated>
+        <author>
+          <name>Freifunk Darmstadt</name>
+        </author>
+        <link rel="alternate" href="https://ffda.chatoyer.de/blog/neue-raeumlichkeiten-fuer-unsere-treffen/" type="text/html"/>
+        <id>https://ffda.chatoyer.de/blog/neue-raeumlichkeiten-fuer-unsere-treffen/</id>
+        
+        <content type="html">&lt;p&gt;Mit dem Umzug des &lt;a href=&quot;https:&#x2F;&#x2F;www.chaos-darmstadt.de&quot;&gt;Chaos Darmstadt e.V.&lt;&#x2F;a&gt; in neue Räumlichkeiten ändert sich auch der Ort für unsere montäglichen Treffen. Ab sofort treffen wir uns in der Wilhelminenstraße 17 im 3. Stock. Die nächstgelegene Bus- und Straßenbahnhaltestelle ist der Luisenplatz. Von dort lauft ihr rechts am Luisencenter vorbei die Wilhelminenstraße hoch und steht nach etwa 150 Metern vor dem unscheinbaren Eingang auf der rechten Seite.&lt;&#x2F;p&gt;
+&lt;p&gt;Das nächste Treffen findet am Montag, den 13. Juni statt.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Freifunk in der Unterkunft Modautalschule</title>
+        <published>2016-05-24T12:00:00+00:00</published>
+        <updated>2016-05-24T12:00:00+00:00</updated>
+        <author>
+          <name>Freifunk Darmstadt</name>
+        </author>
+        <link rel="alternate" href="https://ffda.chatoyer.de/blog/modautalschule/" type="text/html"/>
+        <id>https://ffda.chatoyer.de/blog/modautalschule/</id>
+        
+        <summary type="html">&lt;p&gt;DARMSTADT-DIEBURG - Mit den Verwandten Kontakt halten, sich über politische Entwicklungen informieren und manchmal einfach nur die Zeit totschlagen: Viel mehr bleibt vielen Asylbewerbern im Alltag gar nicht, die darauf warten, dass über ihren Aufenthaltsstatus beschieden wird. Zugang zum Internet? Das hilft. Und das wissen auch Peter Löwenstein und Dirk Steingäßer von der Initiative &amp;quot;Freifunk Darmstadt&amp;quot;, einem Projekt der Darmstädter Vertretung des &amp;quot;Chaos Computer Clubs&amp;quot;. Entsprechend froh sind die beiden, dass sie vor Kurzem die Flüchtlingscontainer an der Modautalschule in Ernsthofen mit einem regional aufgespannten WLAN-Netzwerk ausstatten konnten.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Ausfall des Freifunk-Treffens am kommenden Montag, den 23. Mai</title>
+        <published>2016-05-21T22:00:00+00:00</published>
+        <updated>2016-05-21T22:00:00+00:00</updated>
+        <author>
+          <name>Freifunk Darmstadt</name>
+        </author>
+        <link rel="alternate" href="https://ffda.chatoyer.de/blog/montagstreffen-faellt-aus/" type="text/html"/>
+        <id>https://ffda.chatoyer.de/blog/montagstreffen-faellt-aus/</id>
+        
+        <content type="html">&lt;p&gt;&lt;a href=&quot;http:&#x2F;&#x2F;wemoda.de&quot;&gt;&lt;img src=&quot;&#x2F;images&#x2F;wemoda.png&quot; alt=&quot;WEMODA - Webmontag Darmstadt&quot; class=&quot;image right&quot; style=&quot;width: 30%&quot;&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Am kommenden Montag sind wir auf dem &lt;a href=&quot;http:&#x2F;&#x2F;wemoda.de&#x2F;&quot;&gt;Webmontag Darmstadt&lt;&#x2F;a&gt; vertreten und werden dort einen Vortrag zum Thema Freifunk in Darmstadt halten. Das Freifunk-Treffen wird an diesem Tag leider ausfallen. &lt;a href=&quot;https:&#x2F;&#x2F;darmstadt.freifunk.net&#x2F;kontakt&#x2F;&quot;&gt;Auf den üblichen Kanälen&lt;&#x2F;a&gt; sind wir natürlich weiterhin erreichbar.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Treffen am Pfingstmontag im COWO21</title>
+        <published>2016-05-12T15:00:00+00:00</published>
+        <updated>2016-05-12T15:00:00+00:00</updated>
+        <author>
+          <name>Freifunk Darmstadt</name>
+        </author>
+        <link rel="alternate" href="https://ffda.chatoyer.de/blog/treffen-cowo21/" type="text/html"/>
+        <id>https://ffda.chatoyer.de/blog/treffen-cowo21/</id>
+        
+        <content type="html">&lt;p&gt;&lt;a href=&quot;http:&#x2F;&#x2F;cowo21.de&quot;&gt;&lt;img src=&quot;&#x2F;images&#x2F;supporters&#x2F;cowo21.jpg&quot; alt=&quot;COWO21 - Coworking in Darmstadt&quot; class=&quot;image right&quot; style=&quot;width: 30%&quot;&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Am kommenden Pfingstmontag treffen wir uns ab 18.30 mit unserem Plenum abweichend im COWO21 in der &lt;a href=&quot;http:&#x2F;&#x2F;www.openstreetmap.org&#x2F;way&#x2F;54552465#map=15&#x2F;49.8649&#x2F;8.6495&quot;&gt;Holzhofallee 21&lt;&#x2F;a&gt;. Wie immer sind zukünftige Freifunker und Neugierige, die sich dafür interessieren, was wir tun oder selbst einen Freifunk-Router aufstellen möchten, gerne gesehen.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Stadt Darmstadt ehrt ehrenamtliches Engagement der Freifunker</title>
+        <published>2016-04-26T14:00:00+00:00</published>
+        <updated>2016-04-26T14:00:00+00:00</updated>
+        <author>
+          <name>Freifunk Darmstadt</name>
+        </author>
+        <link rel="alternate" href="https://ffda.chatoyer.de/blog/ehrenurkunde/" type="text/html"/>
+        <id>https://ffda.chatoyer.de/blog/ehrenurkunde/</id>
+        
+        <summary type="html">&lt;p&gt;Am vergangenen Montag, 25. April 2016, hat der Magistrat der Wissenschaftsstadt Darmstadt stellvertretend für eine große Community drei Mitgliedern von Freifunk Darmstadt in Anerkennung ihrer Arbeit im Rahmen des humanitären Notstandes „Flüchtlingshilfe 2015“ die Ehrenurkunde für verdiente Bürgerinnen und Bürger der Wissenschaftsstadt Darmstadt verliehen. Freifunk Darmstadt habe das grundlegende Bedürfnis nach digitaler Kommunikation in den Unterkünften und Hallen flexibel gelöst, so Oberbürgermeister Jochen Partsch. Es sei nicht nur eine Möglichkeit zur Kontaktaufnahme mit Bekannten und Verwandten der Geflüchteten geschaffen worden, sondern der freie Zugang zum Netz habe auch die Arbeit der vielen ehrenamtlichen Helfer wirkungsvoll unterstützt.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Cryptoparty an der TU Darmstadt – ein voller Erfolg</title>
+        <published>2016-04-15T22:00:00+00:00</published>
+        <updated>2016-04-15T22:00:00+00:00</updated>
+        <author>
+          <name>Freifunk Darmstadt</name>
+        </author>
+        <link rel="alternate" href="https://ffda.chatoyer.de/blog/cryptoparty-fazit/" type="text/html"/>
+        <id>https://ffda.chatoyer.de/blog/cryptoparty-fazit/</id>
+        
+        <summary type="html">&lt;p&gt;Zum zweiten Mal waren wir auf der Cryptoparty in Darmstadt präsent. Die Cryptoparty wurde vom Computerwerk e.V organisiert und fand diesmal im alten Hauptgebäude der TU-Darmstadt statt.
+Freifunk sorgte nicht nur für den Netzzugang für alle, die das hochschuleigene Studentennetz nicht nutzen konnten oder wollten, sondern beantwortete Interessierten sämtliche Fragen rund um die Themen offene Netze und Störerhaftung. Weiterhin bestand die Möglichkeit, sich direkt auf der Veranstaltung seinen eigenen Freifunk-Knoten einzurichten, um selbst Teil des Freifunk-Netzes zu werden.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Nichts zu verbergen? Wie langweilig.</title>
+        <published>2016-03-05T14:00:00+00:00</published>
+        <updated>2016-03-05T14:00:00+00:00</updated>
+        <author>
+          <name>Freifunk Darmstadt</name>
+        </author>
+        <link rel="alternate" href="https://ffda.chatoyer.de/blog/cryptoparty/" type="text/html"/>
+        <id>https://ffda.chatoyer.de/blog/cryptoparty/</id>
+        
+        <summary type="html">&lt;p&gt;Am &lt;strong&gt;13. April 2016&lt;&#x2F;strong&gt; ist es wieder so weit! Gemeinsam mit Chaos Darmstadt, dem Computerwerk und Demokratie statt Überwachung veranstalten wir zum dritten Mal unsere &lt;strong&gt;Cryptoparty&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Bringt eure Freunde und Verwandten, Smartphones und Laptops mit und probiert selbst aus, wie einfach es ist, sich vor den Auswüchsen staatlicher Überwachung und Internetkriminellen zu schützen.&lt;&#x2F;p&gt;
+&lt;p&gt;Los geht es &lt;strong&gt;um 19:00 Uhr in Raum 123 des alten Hauptgebäudes (S1|03) der TU Darmstadt&lt;&#x2F;strong&gt; (Hochschulstraße 1, 64289 Darmstadt). Ihr könnt aber auch später kommen.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Weiterknüpfen am offenen WLAN-Netz</title>
+        <published>2016-02-22T14:00:00+00:00</published>
+        <updated>2016-02-22T14:00:00+00:00</updated>
+        <author>
+          <name>Freifunk Darmstadt</name>
+        </author>
+        <link rel="alternate" href="https://ffda.chatoyer.de/blog/echo-1k300/" type="text/html"/>
+        <id>https://ffda.chatoyer.de/blog/echo-1k300/</id>
+        
+        <summary type="html">&lt;p&gt;Unter dem Titel „Weiterknüpfen am offenen WLAN-Netz“ berichtet das Echo über unsere 1000 Nutzer, 300 Knoten-Party. Ein Artikel von Marc Wickel.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;freifunk-initiative-in-darmstadt-mochte-noch-mehr-knoten-aufbauen-bisher-350&quot;&gt;FREIFUNK Initiative in Darmstadt möchte noch mehr Knoten aufbauen &#x2F; Bisher 350&lt;&#x2F;h3&gt;
+&lt;p&gt;DARMSTADT - Das offene, für alle Nutzer passwort- und kostenfreie WLAN breitet sich aus in Darmstadt. Die Initiative „Freifunk Darmstadt“, die sich für das Netz mit freiem Zugang einsetzt, feierte am Freitag das zweite Jahr ihres Bestehens und zog Bilanz.&lt;&#x2F;p&gt;
+&lt;p&gt;Die Reichweite normaler WLAN-Router kann um die 100 Meter betragen und trotz Wänden immer noch bis auf die Straße reichen. Hätte man zu all diesen Netzen Zugang, hätte ein Ort schnell ein flächendeckendes WLAN-Netz. Da setzt die bundesweite „Freifunk“-Initiative an, die neben der technischen Lösung auch die rechtlichen Probleme löst, weil sie einen eigenen Internet-Service-Provider hat.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Freifunk Darmstadt feiert 1000 täglich aktive Nutzer und über 300 Freifunk-Knoten</title>
+        <published>2016-02-15T14:00:00+00:00</published>
+        <updated>2016-02-15T14:00:00+00:00</updated>
+        <author>
+          <name>Freifunk Darmstadt</name>
+        </author>
+        <link rel="alternate" href="https://ffda.chatoyer.de/blog/freifunk1k300party/" type="text/html"/>
+        <id>https://ffda.chatoyer.de/blog/freifunk1k300party/</id>
+        
+        <content type="html">&lt;p&gt;&lt;a href=&quot;&#x2F;images&#x2F;posts&#x2F;2015-02-15-poster.jpg&quot;&gt;&lt;img src=&quot;&#x2F;images&#x2F;posts&#x2F;2015-02-15-poster.jpg&quot; alt=&quot;Werbeplakat für die Veranstaltung. Eintritt frei!&quot; class=&quot;image right&quot; style=&quot;width: 45%&quot;&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Anlässlich des zweijährigen Bestehens von Freifunk in Darmstadt laden wir, unter dem Namen „Freifunk 1k300 Lounge“ zu einem Abend rund um Freifunk ein. Das offene WLAN-Netz „darmstadt.freifunk.net“ wird durch die Mithilfe von mittlerweile über 300 freiwilligen Knotenbetreibern an immer mehr Orten in und um Darmstadt herum verfügbar und bringt täglich über tausend Nutzer ins Internet. Du möchtest erfahren wie ein solches Netzwerk entsteht, funktioniert oder wie du dich selbst mit Hilfe eines eigenen Freifunk-Knotens am Netz beteiligen kannst? Komm vorbei und lass uns bei einem Drink über Freifunk reden!
+&lt;br&#x2F;&gt;
+&lt;br&#x2F;&gt;
+&lt;strong&gt;Wann&lt;&#x2F;strong&gt;: Freitag, 19. Februar 2016, ab 20:00&lt;br&#x2F;&gt;
+&lt;strong&gt;Wo&lt;&#x2F;strong&gt;:   Kulturverein Oettinger Villa in der &lt;a href=&quot;http:&#x2F;&#x2F;www.openstreetmap.org&#x2F;way&#x2F;39045336#map=16&#x2F;49.8832&#x2F;8.6672&quot;&gt;Kranichsteiner Str. 81&lt;&#x2F;a&gt;
+&lt;br&#x2F;&gt;
+&lt;br&#x2F;&gt;
+Für folgendes ist gesorgt:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Kühle Getränke&lt;&#x2F;li&gt;
+&lt;li&gt;Couches&lt;&#x2F;li&gt;
+&lt;li&gt;Musik&lt;&#x2F;li&gt;
+&lt;li&gt;Retro-Spiele&lt;&#x2F;li&gt;
+&lt;li&gt;Freifunk&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;mit Dir wird der Abend komplett!&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Angriff auf freie Software? EU-Richtlinie schränkt Gerätehoheit ein</title>
+        <published>2015-11-23T11:00:00+00:00</published>
+        <updated>2015-11-23T11:00:00+00:00</updated>
+        <author>
+          <name>Freifunk Darmstadt</name>
+        </author>
+        <link rel="alternate" href="https://ffda.chatoyer.de/blog/funkregulierung/" type="text/html"/>
+        <id>https://ffda.chatoyer.de/blog/funkregulierung/</id>
+        
+        <summary type="html">&lt;p&gt;Nach einer Richtlinie der Europäischen Union sollen Hersteller von funkfähigen Geräten stärker reguliert werden. Hersteller sollen sicherstellen, dass die Geräte ausschließlich so wie vorgegeben funktionieren. Dafür sollen Veränderungen der Software zukünftig durch die Hersteller verhindert werden. Das ist insbesondere bei WLAN-Routern ein Problem für freie Software und schränkt das Prinzip der Gerätehoheit ein. Die Käufer.innen hätten damit keine Kontrolle mehr über ihre Geräte, sondern würden von den Herstellern ausgesperrt.&lt;&#x2F;p&gt;
+&lt;p&gt;Diese Regulierung ist aber auch ein Sicherheitsproblem, weil die Hersteller bei Sicherheitsupdates oft weniger gewissenhaft sind als die freie Softwaregemeinschaft mit Projekten wie &lt;a href=&quot;https:&#x2F;&#x2F;openwrt.org&#x2F;&quot;&gt;OpenWRT&lt;&#x2F;a&gt; oder &lt;a href=&quot;https:&#x2F;&#x2F;www.dd-wrt.com&#x2F;site&#x2F;&quot;&gt;DD-WRT&lt;&#x2F;a&gt;. Diese Projekte bieten Nutzer.innen eine Möglichkeit, auch die Router abzusichern, die von den Herstellern keine Sicherheitsaktualisierungen mehr erhalten.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Freifunk-Initiative Darmstadt versorgt in Kooperation mit der Wissenschaftsstadt Darmstadt Flüchtlingsunterkünfte mit freiem WLAN</title>
+        <published>2015-10-08T11:00:00+00:00</published>
+        <updated>2015-10-08T11:00:00+00:00</updated>
+        <author>
+          <name>Freifunk Darmstadt</name>
+        </author>
+        <link rel="alternate" href="https://ffda.chatoyer.de/blog/kooperation-darmstadt/" type="text/html"/>
+        <id>https://ffda.chatoyer.de/blog/kooperation-darmstadt/</id>
+        
+        <summary type="html">&lt;p&gt;&lt;strong&gt;Oberbürgermeister Jochen Partsch begrüßt das Engagement der Initiative – Kooperation beim freien Internetzugang für die Gesamtstadt wird angestrebt&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Die Freifunk-Initiative Darmstadt als Projekt des Chaos Darmstadt e.V. versorgt in Kooperation mit der Wissenschaftsstadt Darmstadt die Notaufnahmeeinrichtung in der Alsfelder Straße und die Erstwohneinrichtung im Donnersbergring mit freiem WLAN.
+Oberbürgermeister Jochen Partsch begrüßt das Engagement der Initiative:&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Freifunk in der Unterkunft Donnersbergring!</title>
+        <published>2015-09-22T20:00:00+00:00</published>
+        <updated>2015-09-22T20:00:00+00:00</updated>
+        <author>
+          <name>Freifunk Darmstadt</name>
+        </author>
+        <link rel="alternate" href="https://ffda.chatoyer.de/blog/donnersbergring/" type="text/html"/>
+        <id>https://ffda.chatoyer.de/blog/donnersbergring/</id>
+        
+        <summary type="html">&lt;p&gt;Nach einem rege besuchten gestrigen Freifunktreffen, bei dem die Versorgung
+zahlreicher Flüchtlingsunterkünfte in Darmstadt und im Umkreis besprochen
+wurde, konnte nun auch die Unterkunft im Donnersbergring mit Freifunk versorgt
+werden.&lt;&#x2F;p&gt;
+&lt;p&gt;Die hierfür gespendeten Router wurden gestern abend und heute im
+Laufe des Tages, insbesondere durch die Unterstützung des
+&lt;a href=&quot;http:&#x2F;&#x2F;www.computerwerk.org&#x2F;&quot;&gt;Computerwerk Darmstadt e.V.&lt;&#x2F;a&gt;, an Ort
+und Stelle gebracht und angeschlossen.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Wir versorgen das Erstaufnahmelager Starkenburg Kaserne. Läuft!</title>
+        <published>2015-08-31T21:00:00+00:00</published>
+        <updated>2015-08-31T21:00:00+00:00</updated>
+        <author>
+          <name>Freifunk Darmstadt</name>
+        </author>
+        <link rel="alternate" href="https://ffda.chatoyer.de/blog/starkenburg/" type="text/html"/>
+        <id>https://ffda.chatoyer.de/blog/starkenburg/</id>
+        
+        <summary type="html">&lt;p&gt;Schon kurz nachdem bekannt wurde, dass die Starkenburg Kaserne als
+Unterkunft (also als Erstaufnahmelager) für Flüchtlinge genutzt werden
+wird, bemühten wir uns um die Bereitstellung von Freifunk Knoten dort.&lt;&#x2F;p&gt;
+&lt;p&gt;Stand heute, Montag 31.8 haben wir einige formale Genehmigungshürden
+erfolgreich überwunden und konnten sogar auf dem Gelände selbst Router
+aufstellen.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>1 Jahr darmstadt.freifunk.net: Grillparty im Innenhof des Chaos Darmstadt e.V.</title>
+        <published>2015-07-17T01:00:00+00:00</published>
+        <updated>2015-07-17T01:00:00+00:00</updated>
+        <author>
+          <name>Freifunk Darmstadt</name>
+        </author>
+        <link rel="alternate" href="https://ffda.chatoyer.de/blog/1-jahr-darmstadt-freifunk-net/" type="text/html"/>
+        <id>https://ffda.chatoyer.de/blog/1-jahr-darmstadt-freifunk-net/</id>
+        
+        <summary type="html">&lt;p&gt;Es ist bereits schon ein Jahr her, als unsere ersten Knoten live gingen, und wir haben seitdem bereits 150 Freifunk-Knoten erreicht.
+Deswegen geben wir eine Party! Das Wetter ist schön, die Getränke liegen kalt und im Garten steht der Grill bereit.&lt;&#x2F;p&gt;
+&lt;p&gt;Wann: 25. Juli, ab 18:00 Uhr
+Wo: Im Innenhof des &lt;a href=&quot;https:&#x2F;&#x2F;www.chaos-darmstadt.de&#x2F;&quot;&gt;Chaos Darmstadt e.V.&lt;&#x2F;a&gt; (Wilhelm-Leuschner-Straße 36)&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Uplink via Freifunk Rheinland</title>
+        <published>2015-06-17T00:00:00+00:00</published>
+        <updated>2015-06-17T00:00:00+00:00</updated>
+        <author>
+          <name>Freifunk Darmstadt</name>
+        </author>
+        <link rel="alternate" href="https://ffda.chatoyer.de/blog/uplink-via-freifunk-rheinland/" type="text/html"/>
+        <id>https://ffda.chatoyer.de/blog/uplink-via-freifunk-rheinland/</id>
+        
+        <content type="html">&lt;p&gt;Seit dem 16. Juni 2015 läuft nun unser ausgehender Datenverkehr über den IPv4 Uplink des &lt;a href=&quot;https:&#x2F;&#x2F;freifunk-rheinland.net&#x2F;&quot;&gt;Freifunk Rheinland&lt;&#x2F;a&gt;. Zuvor waren wir über einen kommerziellen Anbieter mit dem Internet verbunden.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Verbindet die Meshwolken!</title>
+        <published>2015-05-08T11:00:00+00:00</published>
+        <updated>2015-05-08T11:00:00+00:00</updated>
+        <author>
+          <name>Freifunk Darmstadt</name>
+        </author>
+        <link rel="alternate" href="https://ffda.chatoyer.de/blog/verbindet-die-meshwolken/" type="text/html"/>
+        <id>https://ffda.chatoyer.de/blog/verbindet-die-meshwolken/</id>
+        
+        <summary type="html">&lt;p&gt;Helft uns, die drei Meshwolken im Martinsviertel zu vernetzen. Dafür sind Freifunk-Knoten entlang der Barkhausstraße und benachbarten Straßen nötig.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>IPv6-Anbindung</title>
+        <published>2015-04-23T01:00:00+00:00</published>
+        <updated>2015-04-23T01:00:00+00:00</updated>
+        <author>
+          <name>Freifunk Darmstadt</name>
+        </author>
+        <link rel="alternate" href="https://ffda.chatoyer.de/blog/ipv6-anbindung/" type="text/html"/>
+        <id>https://ffda.chatoyer.de/blog/ipv6-anbindung/</id>
+        
+        <content type="html">&lt;p&gt;Seit Anfang April 2015 stellen wir im Freifunk-Netzwerk die nächste Generation des Internet Protocols zur Verfügung. Befreit von NAT und gewachsenen Workarounds ermöglicht es einen performanteren Internetzugang.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Wir feiern den 100sten Hotspot: 9. April, 19:00 Uhr in der Oetinger Villa</title>
+        <published>2015-03-16T20:00:00+00:00</published>
+        <updated>2015-03-16T20:00:00+00:00</updated>
+        <author>
+          <name>Freifunk Darmstadt</name>
+        </author>
+        <link rel="alternate" href="https://ffda.chatoyer.de/blog/wir-feiern-den-100sten-hotspot/" type="text/html"/>
+        <id>https://ffda.chatoyer.de/blog/wir-feiern-den-100sten-hotspot/</id>
+        
+        <summary type="html">&lt;p&gt;Bei Freifunk Darmstadt ist der 100ste Freifunk-Router ans Netz gegangen! Um all jenen zu danken, die diesen Erfolg ermöglicht haben, veranstalten wir am 9. April eine Party in der &lt;a href=&quot;http:&#x2F;&#x2F;www.oetingervilla.de&#x2F;&quot;&gt;Oetinger Villa&lt;&#x2F;a&gt;. Wenn du offenes WLAN in Darmstadt und Umgebung unterstützen möchtest, dann komm vorbei und triff die Menschen hinter den Kulissen. Den Erlös investieren wir in den Ausbau von Freifunk.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Ein Jahr Freifunk Darmstadt</title>
+        <published>2015-03-02T22:50:04+00:00</published>
+        <updated>2015-03-02T22:50:04+00:00</updated>
+        <author>
+          <name>Freifunk Darmstadt</name>
+        </author>
+        <link rel="alternate" href="https://ffda.chatoyer.de/blog/ein-jahr-freifunk-darmstadt/" type="text/html"/>
+        <id>https://ffda.chatoyer.de/blog/ein-jahr-freifunk-darmstadt/</id>
+        
+        <summary type="html">&lt;p&gt;Ein Jahr ist sie nun her, die Neugründung des Projekts Freifunk Darmstadt, und wir sind seitdem weit gekommen. Vor ein paar Tagen haben wir zum ersten mal 100 Freifunk-Zugangspunkte online gesehen.
+Um unseren ersten Jahrestag und die ersten 100 Zugangspunkte zu feiern, veranstalten wir eine Party, zu der wir dich herzlich einladen.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Informationsveranstaltung bei der Stadt Darmstadt</title>
+        <published>2015-01-31T00:00:00+00:00</published>
+        <updated>2015-01-31T00:00:00+00:00</updated>
+        <author>
+          <name>Freifunk Darmstadt</name>
+        </author>
+        <link rel="alternate" href="https://ffda.chatoyer.de/blog/informationsveranstaltung-bei-der-stadt-darmstadt/" type="text/html"/>
+        <id>https://ffda.chatoyer.de/blog/informationsveranstaltung-bei-der-stadt-darmstadt/</id>
+        
+        <content type="html">&lt;p&gt;Am 29. Januar 2015 trafen wir die IT Abteilung der Stadt Darmstadt um ihnen das Freifunk Konzept für öffentliches WLAN zu erklären. Wir erläuterten den aktuellen Stand des Freifunk Netzwerkes in Darmstadt und stellten eine Lösung für die öffentliche WLAN-Abdeckung des Luisenplatzes vor.&lt;&#x2F;p&gt;
+&lt;p&gt;Wir hoben die Vorteile von Freifunk für die Bürger gegenüber anderen (kommerziellen) Anbietern hervor:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;kein Zwang zur Registrierung,&lt;&#x2F;li&gt;
+&lt;li&gt;keine Sammlung von Nutzerdaten,&lt;&#x2F;li&gt;
+&lt;li&gt;keine Beschränkungen des Inhalts, der Geschwindigkeit und der Verbindungsdaten&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Wir hoffen, dass dies die Verantwortlichen überzeugen konnte, sich für Freifunk zu entscheiden und warten nun die Entscheidung der Stadt Darmstadt ab.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Magistrat überprüft Einsatz von Freifunk</title>
+        <published>2014-07-25T00:00:00+00:00</published>
+        <updated>2014-07-25T00:00:00+00:00</updated>
+        <author>
+          <name>Freifunk Darmstadt</name>
+        </author>
+        <link rel="alternate" href="https://ffda.chatoyer.de/blog/magistrat-ueberprueft-einsatz-von-freifunk/" type="text/html"/>
+        <id>https://ffda.chatoyer.de/blog/magistrat-ueberprueft-einsatz-von-freifunk/</id>
+        
+        <content type="html">&lt;p&gt;Der Magistrat der Stadt Darmstadt wurde am 24. Juli durch einstimmigen Beschluss dazu beauftragt, die Umsetzung des öffentlichen WLAN als Freifunknetz in Zusammenarbeit mit der Darmstädter Freifunkinitiative zu überprüfen.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Arbeitstreffen</title>
+        <published>2014-07-15T01:00:00+00:00</published>
+        <updated>2014-07-15T01:00:00+00:00</updated>
+        <author>
+          <name>Freifunk Darmstadt</name>
+        </author>
+        <link rel="alternate" href="https://ffda.chatoyer.de/blog/arbeitstreffen/" type="text/html"/>
+        <id>https://ffda.chatoyer.de/blog/arbeitstreffen/</id>
+        
+        <content type="html">&lt;p&gt;Am 12. Juli 2014 fand unser erstes Arbeitstreffen statt. Es wurden sowohl organisatorische als auch technische Probleme besprochen, z.B. Branch Releases, Build-Automatisierung und Network Monitoring. Ein Community-übergreifendes Freifunk Treffen an den bald stattfindenden MetaRheinMainChaosDays 2014 wurde geplant. Weiterhin wurden unsere Netzwerk-Daten (z.B. Knotenkoordinaten) in die &lt;a href=&quot;http:&#x2F;&#x2F;freifunk.net&#x2F;wie-mache-ich-mit&#x2F;community-finden&#x2F;&quot;&gt;offizielle Freifunk Deutschlandkarte&lt;&#x2F;a&gt; integriert.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Unser erster Feldversuch</title>
+        <published>2014-07-10T00:00:00+00:00</published>
+        <updated>2014-07-10T00:00:00+00:00</updated>
+        <author>
+          <name>Freifunk Darmstadt</name>
+        </author>
+        <link rel="alternate" href="https://ffda.chatoyer.de/blog/unser-erster-feldversuch/" type="text/html"/>
+        <id>https://ffda.chatoyer.de/blog/unser-erster-feldversuch/</id>
+        
+        <content type="html">&lt;p&gt;Am 5. Juli 2014 gab es im K6 in Kranichstein einen Flohmarkt, den wir dazu benutzt haben um die Freifunk Idee zu verbreiten und einen nahe gelegenen Knoten auf Alltagstauglichkeit zu prüfen. Schon vier Tage später konnten wir am selben Ort eine Infoveranstaltung durchführen und schon hatten 6 Freifunkknoten eine neue Heimat gefunden.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Erste Mesh-Knoten</title>
+        <published>2014-07-09T00:00:00+00:00</published>
+        <updated>2014-07-09T00:00:00+00:00</updated>
+        <author>
+          <name>Freifunk Darmstadt</name>
+        </author>
+        <link rel="alternate" href="https://ffda.chatoyer.de/blog/erste-mesh-knoten/" type="text/html"/>
+        <id>https://ffda.chatoyer.de/blog/erste-mesh-knoten/</id>
+        
+        <content type="html">&lt;p&gt;Anfang Mai 2014 gaben wir unsere erste Sammelbestellung von TP-Link WR842NDv2 Routern auf. In den folgenden Wochen haben wir daran gearbeitet diese mit Freifunk-Firmware zu flashen, aber sind auf einige Probleme gestoßen.&lt;&#x2F;p&gt;
+&lt;p&gt;Ende Juni lief dann aber unserer erster Knoten und wir konnten unseren ersten VPN-Zugang bei &lt;a href=&quot;https:&#x2F;&#x2F;ipredator.se&#x2F;&quot;&gt;Ipredator&lt;&#x2F;a&gt; kaufen. Einige Tage später am 28. Juni 2014 waren wir das erste Mal über Freifunk Darmstadt VPN online.&lt;&#x2F;p&gt;
+&lt;p&gt;Da alles bestens funktionierte, konnten wir unsere zweite Sammelbestellung für 20x TP-Link WR842NDv2 und 15x TP-Link WDR4300 Router aufgeben, um das Netz zu erweitern.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Erstes FFDA Treffen</title>
+        <published>2014-02-17T00:00:00+00:00</published>
+        <updated>2014-02-17T00:00:00+00:00</updated>
+        <author>
+          <name>Freifunk Darmstadt</name>
+        </author>
+        <link rel="alternate" href="https://ffda.chatoyer.de/blog/erstes-ffda-treffen/" type="text/html"/>
+        <id>https://ffda.chatoyer.de/blog/erstes-ffda-treffen/</id>
+        
+        <content type="html">&lt;p&gt;Der &lt;a href=&quot;https:&#x2F;&#x2F;de.wikipedia.org&#x2F;wiki&#x2F;Chaos_Communication_Congress&quot;&gt;30ste Chaos Communication Congress&lt;&#x2F;a&gt; hat einige Mitglieder des Chaos Darmstadt inspiriert, Freifunk auch in Darmstadt zu etablieren. Auf dem Kongress gab es eine Freifunk-Assembly, wo viele Freifunk Communities zusammen gefunden haben, Fragen beantwortet und Workshops zum Thema angeboten wurden.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;posts&#x2F;2014-02-17-cda.jpg&quot; alt=&quot;Bild des CDA-Schildes&quot; title=&quot;Trollhöhle!! &amp;lt;3&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Am 13. Februar 2014 hat dann das erste FFDA Treffen in der Trollhöhle des &lt;a href=&quot;https:&#x2F;&#x2F;www.chaos-darmstadt.de&#x2F;&quot;&gt;Chaos Darmstadt e.V.&lt;&#x2F;a&gt; stattgefunden. Wir waren zu viert (megfault, redhood, hexa und fleaz) und haben angefangen den Aufbau des Netzwerks zu planen.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>

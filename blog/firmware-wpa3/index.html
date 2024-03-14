@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta content="width=device-width,initial-scale=1" name="viewport" />
+    <title>Freifunk Darmstadt</title>
+    <meta
+      name="description"
+      content="Freifunk Darmstadt ist eine lokale Initiative mit dem Ziel, ein WLAN-Netzwerk über Darmstadt aufzuspannen und freien Netzzugang anzubieten."
+    />
+    <meta name="theme-color" content="#dc0067" />
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="icon" type="image/svg+xml" href="/logo.svg" />
+    
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="RSS"
+      href="https://ffda.chatoyer.de/atom.xml"
+    />
+    
+  </head>
+  <body>
+    
+    <header>
+      <input id="checkbox" type="checkbox" hidden />
+      <span id="hamburger-container">
+        <a href="/">
+          <h1><img style="height: 1em" src="/logo.svg" /> FFDA</h1>
+        </a>
+        <label for="checkbox" id="hamburger">≡</label>
+      </span>
+      <nav>
+        
+        <a href="&#x2F;blog">Blog</a>
+        
+        <a href="&#x2F;router">Geräte</a>
+        
+        <a href="&#x2F;router&#x2F;setup">Setup</a>
+        
+        <a href="https:&#x2F;&#x2F;firmware.darmstadt.freifunk.net">Firmware</a>
+        
+        <a href="https:&#x2F;&#x2F;stats.darmstadt.freifunk.net">Statistiken</a>
+        
+        <a href="https:&#x2F;&#x2F;meshviewer.darmstadt.freifunk.net">Karte</a>
+        
+      </nav>
+    </header>
+     
+<h2>Mehr Sicherheit in der Luft - WPA3 für unsere Firmware</h2>
+<p>27.03.2020</p>
+<p>Mit unserer <a href="https://firmware.darmstadt.freifunk.net/">aktuellen Firmware im testing Zweig</a> rollen wir gleich zwei neue Features aus, welche erstmals die im Freifunk Client-Netz übertragenen Daten gegen passives Mitlesen absichern und dein privates WLAN noch besser schützen.</p>
+<span id="continue-reading"></span><h2 id="wpa3-fur-euer-privates-wlan">WPA3 für euer privates WLAN</h2>
+<p>Die „Private WLAN“ Funktion der Freifunk Firmware unterstützt nun zusätzliche zu WPA2 die Verschlüsselung mittels <a href="https://de.wikipedia.org/wiki/Wi-Fi_Protected_Access">WPA3</a>. Dieser neue Standard sichert durch ein neues Schlüsseltauschverfahren dein WLAN Kennwort besser vor <a href="https://de.wikipedia.org/wiki/Brute-Force-Methode">Brute-Force Angriffen</a>.</p>
+<p>Angreifer können bei der ausschließlichen Verwendung von WPA3 keine Offline-Angriffe mehr durchführen. Offline bedeutet hier, dass auf den mitgeschnittenen Handshake keine <a href="https://de.wikipedia.org/wiki/Brute-Force-Methode">Brute-Force-</a> oder <a href="https://de.wikipedia.org/wiki/W%C3%B6rterbuchangriff">Wörterbuchangriffe</a> möglich sind.</p>
+<p>Um WPA3 für dein privates WLAN zu aktivieren musst du deinen Freifunk Knoten in den [Konfigurationsmodus]({{ &quot;/was-ist-freifunk/faq&quot; | prepend: site.baseurl }}) bringen. Dort findest du zusätzlich zu den Einstellungen für Netzwerkname und Kennwort nun auch die Einstellungen für WPA3.</p>
+<p>![]({{ &quot;/images/posts/2020-03-27-private-wifi.png&quot; | prepend: site.baseurl }})</p>
+<p>WPA3 wird auf den folgenden Plattformen unterstützt:</p>
+<ul>
+<li><strong>iOS</strong> (ab Version 13)</li>
+<li><strong>Android</strong> (ab Version 10)</li>
+</ul>
+<p>Zusätzlich zu den mobilen Betriebssystemen unterstützen folgende Desktop-Betriebssysteme WPA3 teilweise.</p>
+<h3 id="windows">Windows</h3>
+<p>Windows 10 unterstützt WPA3 <strong>ab Version Mai 2019</strong>, wenn eine kompatible WLAN Karte mit aktuellem Treiber vorhanden ist.</p>
+<p>Intel stellt hierfür eine <a href="https://www.intel.de/content/www/de/de/support/articles/000054783/network-and-i-o/wireless-networking.html">Übersicht auf ihrer Webseite bereit</a>.</p>
+<p>Für eine Qualcomm QCA6174/QCA9377 findest du den aktuellen Treiber auf der Seite <a href="https://support.killernetworking.com/download/killer-inf-package/">dieses OEM</a>.</p>
+<p>Die Realtek RTL8822BE/CE scheint ebenfalls WPA3 Kompatibilität aufzuweisen. Den Treiber hierfür erhältst du beim Hersteller deines Computers.</p>
+<h3 id="macos">MacOS</h3>
+<p>MacOS X unterstützt WPA3 teilweise <strong>ab Catalina</strong>. Für eine vollständige Unterstützung benötigt dein Mac eine WLAN-Karte welche den <a href="https://de.wikipedia.org/wiki/IEEE_802.11ac">802.11ac</a>-Standard unterstützt. Sollte dein Mac nur <a href="https://de.wikipedia.org/wiki/IEEE_802.11n">802.11n</a> unterstützen, so funktioniert WPA3 nur mit ausgeschalteter Management Frame Protection (mehr dazu im nächsten Absatz).</p>
+<h3 id="linux">Linux</h3>
+<p>Die meisten Linux Distributionen unterstützen WPA3 in aktuellen Releases. Bei <a href="https://ubuntu.com/download">Ubuntu</a> ist dies beispielsweise ab Version 19.04 der Fall. Auch hier hängt die Kompatibilität von eurer WLAN-Karte ab.</p>
+<h2 id="management-frame-protection-802-11w">Management Frame Protection (802.11w)</h2>
+<p>Mit WPA3 wird die Management Frame Protection zu einer Voraussetzung. Mit MFP wird die WLAN-Verbindung vor Management-Frame-Attacken geschützt, bei denen ein Angreifer die WLAN-Verbindung zwischen Access Point und Client ohne Kenntnis des WLAN-Kennwortes trennen kann.</p>
+<p>Sollte der Angreifer das WLAN-Kennwort noch nicht kennen zwingt er bei dieser Attacke euren Client dazu, sich neu zu verbinden. Bei WPA2 erhält er dadurch einen weiteren Handshake der für einen Offline-Angriff herangezogen werden kann.</p>
+<p>Mit Management Frame Protection ist eure WLAN-Verbindung so abgesichert, dass lediglich Client und Access Point derartige Pakete austauschen können.</p>
+<p>Mangement Frame Protection ist ein relativ neues Feature, welches erst mit 802.11ac verpflichtend zur Zertifizierung bei der WiFi Alliance benötigt wurde. Aus diesem Grund wird WPA3 meistens erst mit WLAN Karten dieses Standards unterstützt.</p>
+<p>Management Frame Protection kann entweder optional oder Voraussetzung für eine Clientverbindung sein. Bei WPA3 empfiehlt es sich, Managemen Frame Protection verpflichtend zu aktivieren. Solltest du ausschließlich WPA2 oder WPA2/WPA3 im gemeinsamen Modus verwenden, so ist es empfehlenswert, Management Frame Protection optional zu aktivieren.</p>
+<h2 id="enhanced-open-owe">Enhanced Open (OWE)</h2>
+<p>Zusätzlich zu den Verbesserungen für euer privates Netz testen wir mit der aktuellen Firmware Enhanced Open für das Freifunk-Client-Netz. Hiermit wird erstmals der Datenverkehr zwischen Access Point und Client im Freifunk-Netz gegen passives Mitlesen abgesichert. Enhanced Open verwendet ebenfalls Management Frame Protection um die Verbindung vor unautorisiertem Beenden zu schützen.</p>
+<p>Enhanced Open wird bei uns mit der SSID (WLAN Name) <code>owe.darmstadt.freifunk.net</code> ausgestrahlt. OWE steht hierbei für Opportunistic Wireless Encryption.</p>
+<p>![]({{ &quot;/images/posts/2020-03-27-owe-list.png&quot; | prepend: site.baseurl }})</p>
+<p>Enhanced Open kann auch ohne sichtbare SSID ausgestrahlt werden. Hierbei enthält das unverschlüsselte Freifunk-Client-Netz im Beacon SSID und BSSID eines versteckten Enhanced Open Netzes. Kompatible Clients können sich dann automatisch zu diesem verschlüsselten Netz verbinden.</p>
+<p>Da Enhanced Open aktuell noch von sehr wenigen Betriebsystemen unterstützt wird, verzichten wir vorerst auf diesen so genannten Transition Mode. Damit wird die Verschlüsselung mittels Enhanced Open vorerst Opt-In für alle.</p>
+<p>Enhanced Open wird aktuell von <strong>Android</strong> ab Version 10 vollständig unterstützt.</p>
+<p><strong>Windows 10</strong>, <strong>iOS</strong> sowie <strong>MacOS X</strong> unterstützen in noch keinem Release WPA3 Enhanced Open.</p>
+<p><strong>Linux</strong> unterstützt WPA3 Enhanced Open mit dem aktuellen hostapd. Die meisten Distributionen verwenden allerdings die Software NetworkManager zum verwalten der WLAN Netze. Für dieses Programm haben wir den Enhanced Open support <a href="https://gitlab.freedesktop.org/NetworkManager/NetworkManager/-/merge_requests/345">eingebaut</a>, allerdings liefert noch keine Linux Distribution eine Version aus, welche Enhanced Open unterstützt. Hiermit ist frühstens Mitte des Jahres zu rechnen.</p>
+<h2 id="allgemeine-hardwarevorraussetzungen">Allgemeine Hardwarevorraussetzungen</h2>
+<p>Alle beschriebenen Features werden von den meisten von der Freifunk-Firmware unterstützten Modellen unterstützt. Einige Geräte verwenden leider inkompatible WLAN Treiber, weswegen eine Unterstützung von WPA3 bei diesen Geräten nicht möglich ist. Diese Geräte sind in der nachfolgenden Liste aufgeführt:</p>
+<ul>
+<li>D-Link DIR-825 (B1)</li>
+<li>GL.iNet GL-MT300A</li>
+<li>GL.iNet GL-MT300N</li>
+<li>GL.iNet GL-MT750</li>
+<li>Nexx WT3020AD/F/H</li>
+<li>TP-Link Archer C2 v1</li>
+<li>TP-Link Archer C20 (v1)</li>
+<li>TP-Link Archer C20i</li>
+<li>TP-Link Archer C25</li>
+<li>TP-Link Archer C50 v1</li>
+<li>TP-Link Archer C58</li>
+<li>TP-Link Archer C60</li>
+<li>TP-Link TL-WR902 v1</li>
+<li>TP-Link RE450</li>
+<li>TP-Link RE450 (v1)</li>
+<li>Xiaomi MiWiFi Mini</li>
+<li>ZyXEL WRE6606</li>
+</ul>
+<p>Geräte, deren Supportende vor mehr als 2 Jahren angekündigt wurden, unterstützen kein WPA3. Eine vollständige Liste dieser Geräte findest du [hier]({{ &quot;/news/2018/05/16/eol-devices.html&quot; | prepend: site.baseurl }}).</p>
+<h2 id="deine-erfahrungen-sind-gefragt">Deine Erfahrungen sind gefragt!</h2>
+<p>Da die beschriebenen Techniken sehr neu sind, würde es uns sehr Freuen wenn wenn du uns bei den Tests unterstützt und uns von deinen Erfahrungen mit WPA3 und Enhanced Open erzählst.</p>
+<p>Was hat im ersten Anlauf funktioniert? Gab es Probleme? Welche anderen Geräte unterstützen bereits WPA3 oder Enhanced Open? Deine Erfahrungen sind am besten im <a href="https://forum.darmstadt.freifunk.net/t/wpa3-enhanced-open-kompatibalitaet-und-erfahrungen/846">Forenthread</a> zu diesem Thema aufgehoben.</p>
+ 
+    <footer>
+      <ul>
+        
+        <li><a href="&#x2F;impressum">Impressum</a></li>
+        
+        <li><a href="&#x2F;chat">Kontakt</a></li>
+        
+        <li><a href="https:&#x2F;&#x2F;firmware.darmstadt.freifunk.net">Firmware</a></li>
+        
+        <li><a href="https:&#x2F;&#x2F;stats.darmstadt.freifunk.net">Statistiken</a></li>
+        
+        <li><a href="https:&#x2F;&#x2F;meshviewer.darmstadt.freifunk.net">Karte</a></li>
+        
+      </ul>
+      <p>Lizensiert unter CC BY-SA-4.0</p>
+    </footer>
+  </body>
+</html>

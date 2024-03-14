@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta content="width=device-width,initial-scale=1" name="viewport" />
+    <title>Freifunk Darmstadt</title>
+    <meta
+      name="description"
+      content="Freifunk Darmstadt ist eine lokale Initiative mit dem Ziel, ein WLAN-Netzwerk über Darmstadt aufzuspannen und freien Netzzugang anzubieten."
+    />
+    <meta name="theme-color" content="#dc0067" />
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="icon" type="image/svg+xml" href="/logo.svg" />
+    
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="RSS"
+      href="https://ffda.chatoyer.de/atom.xml"
+    />
+    
+  </head>
+  <body>
+    
+    <header>
+      <input id="checkbox" type="checkbox" hidden />
+      <span id="hamburger-container">
+        <a href="/">
+          <h1><img style="height: 1em" src="/logo.svg" /> FFDA</h1>
+        </a>
+        <label for="checkbox" id="hamburger">≡</label>
+      </span>
+      <nav>
+        
+        <a href="&#x2F;blog">Blog</a>
+        
+        <a href="&#x2F;router">Geräte</a>
+        
+        <a href="&#x2F;router&#x2F;setup">Setup</a>
+        
+        <a href="https:&#x2F;&#x2F;firmware.darmstadt.freifunk.net">Firmware</a>
+        
+        <a href="https:&#x2F;&#x2F;stats.darmstadt.freifunk.net">Statistiken</a>
+        
+        <a href="https:&#x2F;&#x2F;meshviewer.darmstadt.freifunk.net">Karte</a>
+        
+      </nav>
+    </header>
+     
+    <main><p>Um deinen eigenen Freifunk-Router zu betreiben benötigt du nur einen kompatiblen WLAN-Router, -Repeater oder -Accesspoint. Die Grundlage für die Kompatibilität liegt in der Unterstützung durch die freie GNU/Linux Distribution <a href="https://openwrt.org/">OpenWRT</a>, die sich auf Embedded-Geräte spezialisiert hat.</p>
+<p>Hast du bereits ein Gerät, oder willst selbst eines kaufen, überprüfe zuvor ob bereits eine Firmware dafür existiert. Das kann man auf der <a href="https://firmware.darmstadt.freifunk.net">Firmware-Downloadseite</a> prüfen, aber auch direkt <a href="/chat">von uns</a> erfahren. Die übliche Router-Hardware vom DSL- oder Kabelprovider ist hierfür in der Regel nicht geeignet. Falls du eine größere Installation von mehr als 3 Access Points, Installaton von Kommunen, von Vereinen, sozialen Trägern oder Kirchen planst, <a href="/chat">kontaktiere</a> uns bitte vorher.</p>
+<p>Achte beim Kauf auf die Hardware-Revision! <br />
+Nicht immer existiert für jedes Gerät eine Firmware, obwohl es zur selben Modellreihe gehört. <br />
+Schaue daher vor dem Kauf auf die Verpackung oder kontaktiere deinen Lieferanten zur Klärung.</p>
+<h3>Router kaufen</h3>
+Wir empfehlen den Besuch beim lokalen Händler deines Vertrauens, da du dort die Revision vor dem Kauf überprüfen kannst.	Alternativ lohnt sich der Preisvergleich im Internet bei Seiten wie <a href="https://geizhals.de/">Geizhals</a> oder <a href="https://www.idealo.de">Idealo</a>.
+<h1>Empfohlene Modelle</h1>
+<h2>Indoor</h2>
+<table><thead><tr><th></th><th></th><th></th><th></th><th></th></tr></thead><tbody>
+<tr><td></td><td><img alt="ZyXEL NWA50AX" src="/images/routers/zyxel-nwa50ax.svg"></td><td><img alt="AVM FRITZ!Box 4040" src="/images/routers/fritz4040.svg"></td><td><img alt="GL.iNet GL-B1300" src="/images/routers/gl-b1300.svg"></td><td><img alt="D-Link DAP-X1860" src="/images/routers/d-link-dap-x1860.svg"></td></tr>
+<tr><td>Hersteller</td><td>ZyXEL</td><td>AVM</td><td>Gl.iNet</td><td>D-Link</td></tr>
+<tr><td>Modell</td><td>NWA50AX</td><td>FRITZ!Box 4040</td><td>GL-B1300</td><td>DAP-X1860</td></tr>
+<tr><td>Stromversorgung</td><td>Netzteil / PoE</td><td>Netzteil</td><td>Netzteil</td><td>Steckdose</td></tr>
+<tr><td>CPU</td><td>2x880 MHzMIPS 1004Kc</td><td>4x717 MHzARMv7</td><td>4x717 MHzARMv7</td><td>2x880 MHzMIPS 1004Kc</td></tr>
+<tr><td>RAM</td><td>256 MB</td><td>256 MB</td><td>256 MB</td><td>256 MB</td></tr>
+<tr><td>Flash</td><td>128 MB</td><td>32 MB</td><td>32 MB</td><td>128 MB</td></tr>
+<tr><td>Wi-Fi Standard</td><td>Wi-Fi 6802.11ax</td><td>Wi-Fi 5802.11ac (Wave2)</td><td>Wi-Fi 5802.11ac (Wave2)</td><td>Wi-Fi 6802.11ax</td></tr>
+<tr><td>WLAN-Datenrate,bis zu (MBit/s)</td><td>600 (2.4 GHz)1.200 (5 GHz)</td><td>400 (2.4 GHz)867 (5 Ghz)</td><td>400 (2.4 GHz)867 (5 GHz)</td><td>600 (2.4 GHz)1.200 (5 GHz)</td></tr>
+<tr><td>Ethernetports</td><td>1</td><td>1x WAN, 4x LAN</td><td>1x WAN, 2x LAN</td><td>1</td></tr>
+<tr><td>USB</td><td>✗</td><td>1x USB3.01x USB2.0</td><td>1x USB3.0</td><td>✗</td></tr>
+<tr><td>Montagemöglichkeiten</td><td>Wand / DeckeMontageplatte</td><td>Aussparung für Schraubenköpfe</td><td>Wandhalterung 10€nicht im Lieferumfang</td><td>Steckdose</td></tr>
+<tr><td>Neupreis</td><td>€ 75</td><td>€ 90</td><td>€ 81</td><td>€ 25</td></tr>
+<tr><td>Installation via</td><td>Webinterface</td><td>FTP</td><td>Webinterface(im Bootloader)</td><td>Webinterface(im Bootloader)</td></tr>
+</tbody></table>
+<h2>Outdoor</h2>
+Sprich uns bitte an wenn du Empfehlungen für ein Outdoor Gerät suchst.
+<h2>Erschwinglich</h2>
+<table><thead><tr><th></th><th></th><th></th></tr></thead><tbody>
+<tr><td></td><td><img alt="Netgear R6120" src="/images/routers/netgear-r6120.svg"></td><td><img alt="Ubiquiti Unifi AP AC-Lite" src="/images/routers/unifi_ac_lite.svg"></td></tr>
+<tr><td>Hersteller</td><td>Netgear</td><td>Ubiquiti</td></tr>
+<tr><td>Modell</td><td>R6120</td><td>Unifi AC Lite</td></tr>
+<tr><td>Stromversorgung</td><td>Netzteil</td><td>PoE Injektor802.3af</td></tr>
+<tr><td>CPU</td><td>1x580 MHzMIPS 74Kc</td><td>1x750 MHzMIPS 74Kc</td></tr>
+<tr><td>RAM</td><td>64 MB</td><td>128 MB</td></tr>
+<tr><td>Flash</td><td>16 MB</td><td>16 MB(8 MB nutzbar)</td></tr>
+<tr><td>Wi-Fi Standard</td><td>Wi-Fi 5802.11ac (Wave 1)</td><td>Wi-Fi 5802.11ac (Wave1)</td></tr>
+<tr><td>WLAN-Datenrate,bis zu (MBit/s)</td><td>300 (2.4 GHz)866 (5 GHz)</td><td>300 (2.4 GHz)867 (5 GHz)</td></tr>
+<tr><td>USB</td><td>1x USB2.0</td><td>✗</td></tr>
+<tr><td>Neupreis</td><td>-</td><td>-</td></tr>
+<tr><td>Gebrauchtpreis</td><td>max. € 30</td><td>max. € 60</td></tr>
+<tr><td>Installation via</td><td>Webinterface</td><td>SSH</td></tr>
+</tbody></table>
+<h2>Experimentell</h2>
+<table><thead><tr><th></th><th></th><th></th><th></th></tr></thead><tbody>
+<tr><td></td><td><img alt="Asus TUF AX4200" src="/images/routers/asus-tuf-ax4200.svg"></td><td><img alt="ZyXEL NWA50AX Pro" src="/images/routers/zyxel-nwa50ax.svg"></td><td><img alt="Netgear WAX220" src="/images/routers/netgear-wax220.svg"></td></tr>
+<tr><td>Hersteller</td><td>Asus</td><td>ZyXEL</td><td>Netgear</td></tr>
+<tr><td>Modell</td><td>TUF AX4200</td><td>NWA50AX Pro</td><td>WAX220</td></tr>
+<tr><td>Stromversorgung</td><td>Netzteil</td><td>Netzteil / PoE</td><td>Netzteil / PoE+</td></tr>
+<tr><td>CPU</td><td>4x 2000 MHzARM A53</td><td>2x 1300 MHzARM A53</td><td>4x 2000 MHzARM A53</td></tr>
+<tr><td>RAM</td><td>512 MB</td><td>512 MB</td><td>1024 MB</td></tr>
+<tr><td>Flash</td><td>256 MB</td><td>256 MB</td><td>128 MB</td></tr>
+<tr><td>Wi-Fi Standard</td><td>Wi-Fi 6802.11ax</td><td>Wi-Fi 6802.11ax</td><td>Wi-Fi 6802.11ax</td></tr>
+<tr><td>WLAN-Datenrate,bis zu (MBit/s)</td><td>574 (2.4 GHz)3603 (5 GHz)</td><td>574 (2.4 GHz)2402 (5 GHz)</td><td>574 (2.4 GHz)3603 (5 GHz)</td></tr>
+<tr><td>Ethernetports</td><td>2,5 GBit/s WAN 4x Gigabit LAN</td><td>1x 2,5 GBit/s</td><td>1x 2,5 GBit/s</td></tr>
+<tr><td>USB</td><td>1x USB3.0</td><td>✗</td><td>✗</td></tr>
+<tr><td>Neupreis</td><td>€ 120</td><td>€ 105</td><td>€ 130</td></tr>
+<tr><td>Installation via</td><td>SSH</td><td>Webinterface</td><td>Webinterface</td></tr>
+</tbody></table>
+<br />
+<p>Die Hardware-Illustrationen stammen von:</p>
+<ul>
+	<li><a href="https://github.com/Moorviper/Freifunk-Router-Anleitungen">Daniel Krah</a> (<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC-BY-NC-SA 4.0</a>)</li>
+	<li><a href="https://github.com/belzebub40k/router-pics">Julian Labus</a> (<a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC-BY-NC-SA 4.0</a>)</li>
+	<li><a href="https://github.com/freifunkstuff/meshviewer-hwimages">freifunkstuff (<a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC-BY-NC-SA 4.0</a>)</a></li>
+</ul>
+</main>
+    
+    <footer>
+      <ul>
+        
+        <li><a href="&#x2F;impressum">Impressum</a></li>
+        
+        <li><a href="&#x2F;chat">Kontakt</a></li>
+        
+        <li><a href="https:&#x2F;&#x2F;firmware.darmstadt.freifunk.net">Firmware</a></li>
+        
+        <li><a href="https:&#x2F;&#x2F;stats.darmstadt.freifunk.net">Statistiken</a></li>
+        
+        <li><a href="https:&#x2F;&#x2F;meshviewer.darmstadt.freifunk.net">Karte</a></li>
+        
+      </ul>
+      <p>Lizensiert unter CC BY-SA-4.0</p>
+    </footer>
+  </body>
+</html>

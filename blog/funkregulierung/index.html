@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta content="width=device-width,initial-scale=1" name="viewport" />
+    <title>Freifunk Darmstadt</title>
+    <meta
+      name="description"
+      content="Freifunk Darmstadt ist eine lokale Initiative mit dem Ziel, ein WLAN-Netzwerk über Darmstadt aufzuspannen und freien Netzzugang anzubieten."
+    />
+    <meta name="theme-color" content="#dc0067" />
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="icon" type="image/svg+xml" href="/logo.svg" />
+    
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="RSS"
+      href="https://ffda.chatoyer.de/atom.xml"
+    />
+    
+  </head>
+  <body>
+    
+    <header>
+      <input id="checkbox" type="checkbox" hidden />
+      <span id="hamburger-container">
+        <a href="/">
+          <h1><img style="height: 1em" src="/logo.svg" /> FFDA</h1>
+        </a>
+        <label for="checkbox" id="hamburger">≡</label>
+      </span>
+      <nav>
+        
+        <a href="&#x2F;blog">Blog</a>
+        
+        <a href="&#x2F;router">Geräte</a>
+        
+        <a href="&#x2F;router&#x2F;setup">Setup</a>
+        
+        <a href="https:&#x2F;&#x2F;firmware.darmstadt.freifunk.net">Firmware</a>
+        
+        <a href="https:&#x2F;&#x2F;stats.darmstadt.freifunk.net">Statistiken</a>
+        
+        <a href="https:&#x2F;&#x2F;meshviewer.darmstadt.freifunk.net">Karte</a>
+        
+      </nav>
+    </header>
+     
+<h2>Angriff auf freie Software? EU-Richtlinie schränkt Gerätehoheit ein</h2>
+<p>23.11.2015</p>
+<p>Nach einer Richtlinie der Europäischen Union sollen Hersteller von funkfähigen Geräten stärker reguliert werden. Hersteller sollen sicherstellen, dass die Geräte ausschließlich so wie vorgegeben funktionieren. Dafür sollen Veränderungen der Software zukünftig durch die Hersteller verhindert werden. Das ist insbesondere bei WLAN-Routern ein Problem für freie Software und schränkt das Prinzip der Gerätehoheit ein. Die Käufer.innen hätten damit keine Kontrolle mehr über ihre Geräte, sondern würden von den Herstellern ausgesperrt.</p>
+<p>Diese Regulierung ist aber auch ein Sicherheitsproblem, weil die Hersteller bei Sicherheitsupdates oft weniger gewissenhaft sind als die freie Softwaregemeinschaft mit Projekten wie <a href="https://openwrt.org/">OpenWRT</a> oder <a href="https://www.dd-wrt.com/site/">DD-WRT</a>. Diese Projekte bieten Nutzer.innen eine Möglichkeit, auch die Router abzusichern, die von den Herstellern keine Sicherheitsaktualisierungen mehr erhalten.</p>
+<span id="continue-reading"></span><h4 id="eu-gibt-einschrankung-der-geratehoheit-vor">EU gibt Einschränkung der Gerätehoheit vor</h4>
+<p>Die bisher weitgehend unbeachtete <a href="http://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32014L0053&amp;from=DE">Richtlinie 2014/53/EU</a> der EU sieht vor, dass Hardware, die zum Versenden von Funkwellen geeignet ist, nur mit vom Hersteller geprüfter Software verwendbar sein soll. Wörtlich heißt es in der Richtlinie:</p>
+<blockquote>
+<p>„Funkanlagen müssen in bestimmten Kategorien oder Klassen so konstruiert sein, dass sie die folgenden grundlegenden Anforderungen erfüllen: Sie unterstützen bestimmte Funktionen, mit denen sichergestellt werden soll, dass nur solche Software geladen werden kann, für die die Konformität ihrer Kombination mit der Funkanlage nachgewiesen wurde.“ (Art. 3, Abs. 3 lit i).</p>
+</blockquote>
+<p>Eine solche Vorschrift kommt einem Verbot von alternativer Software auf funkfähigen Geräten gleich. Denn für den verlangten Nachweis, dass die Kombination von Software und Gerät mit der Richtlinie konform ist, sind die Hersteller zuständig. Folglich müssten die Hersteller alternative Software für ihre Geräte ebenfalls prüfen und zertifizieren lassen, oder sie müssten die Installation dieser Software technisch verhindern.</p>
+<p>Begründet wird die Richtlinie mit der öffentlichen Sicherheit und Gesundheit, da alternative Software in manchen Fällen in der Lage ist, die erlaubten Grenzwerte für Übertragungsstärke und Frequenzen zu überschreiten oder nicht-standardkonforme Signale zu übertragen. Dies könnte eine Gefahr für Gesundheit und für andere Geräte sein. Jedoch offenbart der Blick in die Software vieler Router, dass schon seit Jahren auch mit der Software des Herstellers die Grenzwerte überschritten werden können, falls falsche Einstellungen vorgenommen werden (z.B. Länder-Einstellung auf USA).</p>
+<p>####Widerspruch zur Endgerätefreiheit
+Diese Einschränkung der Gerätehoheit kommt überraschend, da die Bundesregierung die Wahlfreiheit gerade mit dem <a href="https://netzpolitik.org/2015/der-lange-weg-des-routerzwangs-zur-endgeraetefreiheit/">Gesetzentwurf zur Abschaffung des „Routerzwangs“</a> stärken möchte. Der Gesetzentwurf zur Endgerätefreiheit ist zielführend und wird von Digitalcourage und anderen Organisationen wie der <a href="https://fsfe.org/">Free Software Foundation Europe</a> und dem <a href="http://www.vzbv.de/">Verbraucherzentrale Bundesverband</a> in <a href="https://fsfe.org/news/2015/news-20151028-01.html">einem Verbändeschreiben</a> unterstützt.</p>
+<h4 id="deutsche-umsetzung">Deutsche Umsetzung</h4>
+<p>Die Richtlinie ist auf EU-Ebene bereits beschlossen, es folgt nun die Umsetzung in nationales Recht in allen Mitgliedsstaaten. Eine <a href="https://fragdenstaat.de/anfrage/stand-der-umsetzung-der-richtlinie-2014-53-eu/#nachricht-32705">Anfrage nach dem Informationsfreiheitsgesetz</a> hat ergeben, dass die Vorbereitungen dazu in Deutschland bereits laufen und wir in den nächsten Wochen einen Gesetzentwurf erwarten können.</p>
+<p>Dabei wird das Gesetz voraussichtlich nicht definieren, welche Geräte genau von dieser Regulierung betroffen sind. Stattdessen wird der EU-Kommission das Recht gegeben, diese Klassen durch spätere Beschlüsse zu definieren, die dann vermutlich in Form von Verwaltungsanordnungen auch in Deutschland bindend werden, ohne dass sie als Gesetz den Bundestag passieren müssten. Neue Regulierungsentscheidungen können im EU-Rat und -Parlament durch ein Veto blockiert, müssen aber nicht explizit gebilligt werden.</p>
+<h4 id="das-aus-fur-freifunk">Das Aus für Freifunk?</h4>
+<p>Sollte die Kommission entscheiden, dass auch WLAN-fähige Geräte unter diese Definition fallen, würde dies weitreichende Konsequenzen haben. Zum Beispiel basiert die <a href="https://freifunk.net/">Freifunk-Initiative</a> auf der Verwendung von existierenden Routern mit alternativer, freier Software. Ein Verbot dieser Art der Verwendung würde Freifunk die technische Grundlage entziehen. Dies gefährdet auch das soziale Engagement von vielen Freifunk-Communities, die <a href="http://www.golem.de/news/freifunk-kostenloses-internet-fuer-fluechtlinge-1509-116249.html">unter anderem auch Unterkünfte von Geflüchteten mit Internet versorgen</a>.</p>
+<p>Auch Amateurfunker sind potentiell von dem Verbot betroffen. Zwar sind gewisse Geräte für Funkamateure explizit von der Richtlinie ausgenommen (siehe <a href="http://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32014L0053&amp;from=DE">Anhang 1 der Richtlinie</a>), aber auch Funkamateure verwenden teilweise modifizierte WLAN-Router, um zum Beispiel Kommunikation in so genannten <a href="https://de.wikipedia.org/wiki/HAMNET">HAMNETs</a> zu ermöglichen.</p>
+<p>Sogar alternative Betriebssysteme wie Linux oder BSD für PCs und CyanogenMod oder Replicant für Android-Geräte könnten betroffen sein, da auch sie eigene Software für die Interaktion per WLAN nutzen.</p>
+<p>####Mehr Schaden als Nutzen?
+Der EU scheint dieses Risiko bewusst zu sein: In § 19 der Erwägungsgründe der Richtlinie heißt es:</p>
+<blockquote>
+<p>„Die Überprüfung der Konformität von Kombinationen aus Funkanlagen und Software durch die Funkanlagen selbst sollte nicht dazu missbraucht werden, die Verwendung der Anlagen mit Software von unabhängigen Anbietern zu verhindern.“</p>
+</blockquote>
+<p>Doch eine explizite Abwägung zwischen Schaden und Nutzen der Regulierung bestimmter Klassen von Geräten ist nicht vorgesehen. Stattdessen wird darauf verwiesen, dass die Kommission bestimmen kann, welche Geräte reguliert werden sollen und die Kommission diese Abwägung dann wohl schon vornehmen wird. Der scheinbar beruhigende Text in § 19 steht außerdem im Widerspruch zum Erwägungsgrund in § 16:</p>
+<blockquote>
+<p>„Die Konformität einiger Kategorien von Funkanlagen […] kann durch die Integration von Software oder durch Änderungen der bestehenden Software beeinträchtigt werden. Ein Laden von Software durch den Benutzer, die Funkanlage selbst oder einen Dritten sollte nur möglich sein, wenn dies keine Beeinträchtigung der Konformität […] zur Folge hat.“</p>
+</blockquote>
+<p>Der eigentliche Gesetzestext löst diesen Widerspruch nicht auf. Leider sind außerdem die Entscheidungsprozesse innerhalb der Kommission alles andere als transparent. Daher ist die demokratische Einflussnahme auf ihre Entscheidungen schwierig.</p>
+<h4 id="jetzt-handeln">Jetzt handeln!</h4>
+<ul>
+<li>Für die Umsetzung der EU-Richtlinie in Deutschland gibt es Gestaltungsspielräume. Darum lohnt es sich, <strong>mit Abgeordneten über kritische Punkte der Richtlinie</strong> zu sprechen, zum Beispiel über die Folgen der Richtlinie für Freifunk, freie Software-Projekte und die Abhängigkeit von Anbieter.innen in Puncto Sicherheit und Gerätehoheit.</li>
+<li>Eine konkrete Frage der Umsetzung ist Artikel 3.3 der Richtlinie 2014/53/EU: Darf der eigene WLAN-Router weiterhin mit eigener Software betrieben werden?</li>
+<li>Auch die <strong>Hersteller</strong> werden von der Umsetzung der Richtlinie betroffen sein. Hier ist es angebracht darüber zu sprechen, wie Hersteller Artikel 3.3 umsetzten wollen.</li>
+<li><strong>Informieren Sie Ihre Freund.innen, Bekannten und Kolleg.innen</strong> über die  EU-Richtlinie und deren Folgen.</li>
+<li><a href="https://juliareda.eu/2015/10/liebe-bundesregierung-macht-freifunk-nicht-kaputt/">weitere Handlungsvorschläge von der EU-Parlamentarierin Julia Reda</a></li>
+</ul>
+<h4 id="weiterfuhrende-links">Weiterführende Links</h4>
+<ul>
+<li><a href="http://www.heise.de/newsticker/meldung/Funkregulierung-Angriff-auf-alternative-Software-2803189.html">Daniel AJ Sokolov (heise.de): Funkregulierung: Angriff auf alternative Software</a></li>
+<li><a href="https://juliareda.eu/2015/10/liebe-bundesregierung-macht-freifunk-nicht-kaputt/">Julia Reda: Liebe Bundesregierung, macht Freifunk nicht kaputt</a></li>
+<li><a href="https://netzpolitik.org/2015/der-lange-weg-des-routerzwangs-zur-endgeraetefreiheit/">netzpolitik.org: Der lange Weg des Routerzwangs zur Endgerätefreiheit</a></li>
+<li><a href="https://fsfe.org/news/2015/news-20151028-01.html">FSFE: Verbändeschreiben gegen Routerzwang</a></li>
+</ul>
+<p>Im Original erschienen auf <a href="https://digitalcourage.de/blog/2015/angriff-auf-freie-software-eu-richtlinie-schraenkt-geraetehoheit-ein">digitalcourage.de</a></p>
+<p>Dieser Text steht unter der Lizenz <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></p>
+<p>Autoren: Max Maass und Sebastian Lisken (<a href="https://digitalcourage.de/blog/2015/ag-text-jetzt-mitmachen">AG Text</a>), mit Dank an <a href="https://darmstadt.freifunk.net">Freifunk Darmstadt</a> und <a href="http://www.freifunk-bielefeld.de/">Freifunk Bielefeld</a> für Hinweise und Korrekturen.</p>
+ 
+    <footer>
+      <ul>
+        
+        <li><a href="&#x2F;impressum">Impressum</a></li>
+        
+        <li><a href="&#x2F;chat">Kontakt</a></li>
+        
+        <li><a href="https:&#x2F;&#x2F;firmware.darmstadt.freifunk.net">Firmware</a></li>
+        
+        <li><a href="https:&#x2F;&#x2F;stats.darmstadt.freifunk.net">Statistiken</a></li>
+        
+        <li><a href="https:&#x2F;&#x2F;meshviewer.darmstadt.freifunk.net">Karte</a></li>
+        
+      </ul>
+      <p>Lizensiert unter CC BY-SA-4.0</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta content="width=device-width,initial-scale=1" name="viewport" />
+    <title>Freifunk Darmstadt</title>
+    <meta
+      name="description"
+      content="Freifunk Darmstadt ist eine lokale Initiative mit dem Ziel, ein WLAN-Netzwerk über Darmstadt aufzuspannen und freien Netzzugang anzubieten."
+    />
+    <meta name="theme-color" content="#dc0067" />
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="icon" type="image/svg+xml" href="/logo.svg" />
+    
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="RSS"
+      href="https://ffda.chatoyer.de/atom.xml"
+    />
+    
+  </head>
+  <body>
+    
+    <header>
+      <input id="checkbox" type="checkbox" hidden />
+      <span id="hamburger-container">
+        <a href="/">
+          <h1><img style="height: 1em" src="/logo.svg" /> FFDA</h1>
+        </a>
+        <label for="checkbox" id="hamburger">≡</label>
+      </span>
+      <nav>
+        
+        <a href="&#x2F;blog">Blog</a>
+        
+        <a href="&#x2F;router">Geräte</a>
+        
+        <a href="&#x2F;router&#x2F;setup">Setup</a>
+        
+        <a href="https:&#x2F;&#x2F;firmware.darmstadt.freifunk.net">Firmware</a>
+        
+        <a href="https:&#x2F;&#x2F;stats.darmstadt.freifunk.net">Statistiken</a>
+        
+        <a href="https:&#x2F;&#x2F;meshviewer.darmstadt.freifunk.net">Karte</a>
+        
+      </nav>
+    </header>
+     
+    <main><p>Diese Anleitung richtet sich an TP-Link Geräte.
+Solltest du einen Ubiquiti UniFi AP besitzen, findest du <a href="https://forum.darmstadt.freifunk.net/t/unifi-ap-erstinstallation/790">hier</a>) die nötigen Schritte.
+Für einen AVM Router/Repeater findest du die nötigen Schritte <a href="https://fritz-tools.readthedocs.io/de/latest/">hier</a>.</p>
+<h3 id="den-router-anschliessen">Den Router anschließen</h3>
+<ol>
+<li>Lade das passende Erstinstallations-Firmware-Image für deinen Router <a href="https://firmware.darmstadt.freifunk.net/">von unserer Seite</a> herunter.</li>
+<li>Verbinde deinen Computer mit einem der gelben LAN-Anschlüsse des Routers.</li>
+<li>Dein Computer erhält nun automatisch via DHCP eine IP-Adresse.</li>
+</ol>
+<h3 id="installiere-das-freifunk-image">Installiere das Freifunk-Image</h3>
+<ol>
+<li>Öffne das Webinterface deines Routers in deinem Browser.</li>
+<li>Folge den Anweisungen im Handbuch deines Routers um die Firmware zu aktualisieren.</li>
+<li>Nutze nun das von der zuvor heruntergeladene Firmware-Image.</li>
+<li>Warte bis der Router wieder gestartet ist.</li>
+</ol>
+<h3 id="konfigurationsmodus">Konfigurationsmodus</h3>
+<p>Dein Router sollte nun in den Konfigurationsmodus starten. Du erhältst erneut IP-Adresse per DHCP, dein Freifunk-Router ist nun unter <a href="http://192.168.1.1">http://192.168.1.1</a> in deinem Browser erreichbar.</p>
+<h3 id="den-router-konfigurieren">Den Router konfigurieren</h3>
+<ol>
+<li>Wähle einen Namen nach dem Schema <code>PLZ-Wahlname</code>, also bspw. <code>64283-Kaesekuchen</code>.</li>
+<li>Aktiviere das <code>Mesh-VPN</code>, um eine Verbindung mit dem Freifunk-Netz über das Internet herzustellen</li>
+<li>Füge GPS-Koordinaten des Router-Standorts ein. Diese kannst du auf unterschiedliche Weisen erhalten:</li>
+</ol>
+<ul>
+<li>Am PC: über <a href="https://map.darmstadt.freifunk.net">unsere Karte</a> (Zuerst Pin klicken, dann Doppelklick auf die Position des Routers)</li>
+<li>Android: <a href="https://play.google.com/store/apps/details?id=com.eclipsim.gpsstatus2">GPS Status &amp; Toolbox</a></li>
+</ul>
+<ol start="4">
+<li>[optional] Gib eine Kontaktmöglichkeit an, um anderen Freifunkern zu ermöglichen, Kontakt mit dir aufzunehmen. Diese wird anschließend auf der Info-Seite deines Knotens öffentlich im Internet angezeigt.</li>
+<li>Nach einem Klick auf <code>Speichern und Neustarten</code> siehst du den Öffentlichen Schlüssel für den VPN-Zugang. Diesen sendest du bitte per E-Mail an <a href="mailto:keys@darmstadt.freifunk.net">keys@darmstadt.freifunk.net</a>.</li>
+</ol>
+<blockquote class="no-margin">
+&#35; PLZ-Wahlname
+<p># lambda</p>
+<p># a1:01:00:ab:cd:ee</p>
+<p>key &quot;f1d2d2f924e986ac86fdf7b36c94bcdf32beec15&quot;;</p>
+</blockquote>
+<p>Danach startet der Router neu, sendet das WLAN <code>darmstadt.freifunk.net</code> aus und versucht sich per Mesh mit anderen Nachbarn zu verbinden. Falls du keine Mesh-Nachbarn hast, ist eine Verbindung mit dem WLAN-Netzwerk erst dann möglich, sobald der Schlüssel auf den Gateways eingetragen wurde. Darüber informieren wir dich zeitnah mit einer Begrüßungs-Email.</p>
+<p>Der Router ist jetzt im Normalbetrieb und nicht mehr unter der <a href="http://192.168.1.1">http://192.168.1.1</a> erreichbar.</p>
+<h3 id="den-router-aufstellen">Den Router aufstellen</h3>
+<p>Als Standort empfehlen sich Fenster, Balkone oder Dächer. Je näher er der Außenwelt ist, desto wahrscheinlicher ist es, dass er für Passanten erreichbar ist und sich mit anderen Routern verbindet um eine <a href="https://de.wikipedia.org/wiki/Vermaschtes_Netz">Meshverbindung</a> zu bilden.</p>
+<h3 id="verbinde-den-router-mit-dem-netzwerk">Verbinde den Router mit dem Netzwerk</h3>
+<p>Wenn du deinen Internetzugang zur Verfügung stellen möchtest, verbinde jetzt den blauen WAN-Anschluss deines Freifunk-Router mit deinem vorhandenen Internetrouter. Möchtest oder kannst du das nicht bist du auf andere Freifunker in deiner Nähe angewiesen um eine Verbindung zum Freifunk-Netzwerk und ins Internet herzustellen.</p>
+<h3 id="fertig">Fertig</h3>
+<p>Super, du hast es geschafft. Dein Freifunk-Knoten funktioniert jetzt und sollte, wenn du GPS Koordinaten angegeben hast, in Kürze auf der <a href="https://map.darmstadt.freifunk.net/">Karte</a> erscheinen.</p>
+</main>
+    
+    <footer>
+      <ul>
+        
+        <li><a href="&#x2F;impressum">Impressum</a></li>
+        
+        <li><a href="&#x2F;chat">Kontakt</a></li>
+        
+        <li><a href="https:&#x2F;&#x2F;firmware.darmstadt.freifunk.net">Firmware</a></li>
+        
+        <li><a href="https:&#x2F;&#x2F;stats.darmstadt.freifunk.net">Statistiken</a></li>
+        
+        <li><a href="https:&#x2F;&#x2F;meshviewer.darmstadt.freifunk.net">Karte</a></li>
+        
+      </ul>
+      <p>Lizensiert unter CC BY-SA-4.0</p>
+    </footer>
+  </body>
+</html>
